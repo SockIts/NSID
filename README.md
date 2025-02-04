@@ -38,7 +38,7 @@ A modern, cyberpunk-themed web application for exploring and managing Bitcoin ST
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/NSID.git
+git clone https://github.com/n4kashu/NSID.git
 cd NSID
 ```
 
@@ -127,7 +127,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions and support, please open an issue or contact the maintainers:
 
-- GitHub Issues: [Create an issue](https://github.com/yourusername/NSID/issues)
+- GitHub Issues: [Create an issue](https://github.com/n4kashu/NSID/issues)
 - Email: your.email@example.com
 
 ---
