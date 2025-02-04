@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <rect fill="#1A1A1A" x="0" y="0" width="200" height="200"/>
+        <text font-family="SpaceGrotesk-Medium, Space Grotesk" font-size="24" font-weight="400" fill="#666666" text-anchor="middle">
+            <tspan x="100" y="110">STAMP</tspan>
+        </text>
+    </g>
+</svg>
