@@ -6,7 +6,7 @@ A modern, cyberpunk-themed web application for exploring and managing Bitcoin ST
 
 ## 🚀 Features
 
-- **Modern Cyberpunk UI/UX**
+- **UI/UX**
   - Neon-themed design with dynamic animations
   - Responsive layout for all devices
   - Dark theme optimized for digital art display
