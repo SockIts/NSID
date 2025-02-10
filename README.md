@@ -1,6 +1,6 @@
 # NSID (NSI Directory)
 
-A modern, cyberpunk-themed web application for exploring and managing Bitcoin STAMPS and SRC-20 tokens. This project provides a comprehensive platform for users to learn about, view, and interact with Bitcoin STAMPS.
+Web application for exploring and managing Bitcoin STAMPS and SRC-20 tokens. This project provides a comprehensive platform for users to learn about, view, and interact with Bitcoin STAMPS.
 
 ![NSID Banner](public/banner.png)
 
