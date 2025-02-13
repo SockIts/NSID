@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>White Frame with Texture</title>
+  </head>
+  <style>
+    body {
+      display: block;
+      justify-content: center;
+      overflow: hidden;
+      image-rendering: pixelated;
+      max-width: 100%;
+      height: auto;
+    }
+
+    img {
+      border: solid 3px;
+      border-bottom-color: #ffe;
+      border-left-color: #eed;
+      border-right-color: #eed;
+      border-top-color: #ccb;
+      object-fit: contain;
+      background-color: black;
+      width: 99%;
+      height: auto;
+    }
+
+    .frame {
+      background-color: #cca;
+      border: solid 2vh #eee;
+      border-radius: 1px;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+      margin: 3vh 3vh;
+      max-width: 100%;
+      height: auto;
+      padding: 15px;
+      position: relative;
+      justify-content: center;
+    }
+
+    .texture {
+      background-image: repeating-linear-gradient(233deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1) 1px, transparent -19px, transparent 2px);
+      background-size: 10px;
+    }
+  </style>
+  <body>
+    <div class="frame texture">
+      <div>
+        <img src="https://assets.stamped.ninja/A1653646838615467462.png" />
+      </div>
+    </div>
+  </body>
+  <html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Default Frame</title>
+  </head>
+  <style>
+    body {
+      place-content: center;
+      image-rendering: pixelated;
+      align-items: even;
+      margin: 5vh;
+      overflow: hidden;
+    }
+
+    .frame {
+      padding: 2vh;
+      border-width: 14px;
+      border-style: solid;
+      border-color: #2F2D2D #434040 #4F4C4C #434040;
+      background-image: linear-gradient(#E5E4DF, #CDCDC6);
+      box-shadow: inset 0 2px 5px rgba(0, 0, 0, .6), 0 5px 2px rgba(0, 0, 0, .1), 0 10px 20px rgba(0, 0, 0, .8);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .frame::after {
+      content: "";
+      position: absolute;
+      top: -350px;
+      right: -70%;
+      width: 400px;
+      height: 400px;
+      transform: rotateZ(-45deg);
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, .4)), to(rgba(255, 255, 255, 0)));
+    }
+
+    .container::before {
+      border-radius: 1px;
+      position: absolute;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25) inset;
+      content: "";
+      left: -1vh;
+      right: -1vh;
+      top: -1vh;
+      bottom: -1vh;
+    }
+
+    .container::after {
+      border-radius: 1px;
+      position: absolute;
+      box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .25);
+      content: "";
+      left: -1.5vh;
+      right: -1.5vh;
+      top: -1.5vh;
+      bottom: -1.5vh;
+    }
+
+    .container {
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      perspective: 2500px;
+      transform-style: preserve-3d;
+      transition: rotate 300ms ease;
+      image-rendering: pixelated;
+    }
+
+    .container.show {
+      rotate: y 180deg;
+    }
+
+    img {
+      width: 260px;
+      border-width: 2px;
+      border-style: solid;
+      border-color: #BBBAB4 #C7C7BF #E5E4DF #C7C7BF;
+      box-shadow: 0 -1px 1px rgba(0, 0, 0, .1), 0 1px 1px 1px rgba(255, 255, 255, .7);
+      height: 99%;
+      display: relative;
+      object-fit: contain;
+      filter: contrast(1);
+    }
+
+    .back,
+    .front {
+      width: 100%;
+      backface-visibility: hidden;
+    }
+
+    .front {
+      justify-content: center;
+      align-items: center;
+      filter: contrast(1.1);
+    }
+
+    .back {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 98%;
+      height: 98%;
+      transform: rotateY(180deg);
+      background-color: none;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    .text {
+      color: black;
+      font-size: 1em;
+      font-style: italic;
+      text-align: left;
+    }
+
+    svg {
+      position: absolute;
+    }
+
+    .logo {
+      border: none;
+      position: absolute;
+      bottom: -1vh;
+      left: 45%;
+      width: 6vw;
+      height: auto;
+      opacity: 1;
+      filter: contrast(1.1) invert(100%);
+    }
+
+    .texture {
+      background-color: #aaa;
+      background-image: repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1) 1px, transparent -19px, transparent 2px);
+    }
+
+    iframe {
+      width: 240px;
+      height: 280px;
+      border: none;
+      border-radius: 2px;
+      transform: scale(1.7);
+      transform-origin: 40% 80%;
+      animation: scaleAnim 5s infinite alternate;
+      z-index: 1;
+    }
+  </style>
+  <body>
+    <!-- Front Side -->
+    <div class="frame">
+        <div class="container">
+          <div class="front">
+            <iframe src="https://stampchain.io/stamp/346113"></iframe>
+          </div>
+          <!-- Back Side -->
+          <div class="back">
+            <text class="text"> To Be Written... <br>
+              <br> - Masteronchain </text>
+          </div>
+        </div>
+    </div>
+  </body>
+  <script>
+    // CardFlip Function
+    const card = document.querySelector(".container");
+    card.addEventListener("click", function() {
+      card.classList.toggle("show");
+    });
+  </script>
+</html>
