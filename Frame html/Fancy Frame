@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NSID Card Animation</title>
+  </head>
+  <style>
+    .frame-outer {
+      margin: 5vh;
+      border: solid 2vh black;
+      padding: 2.5vh;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+    }
+
+    .frame {
+      background-color: white;
+      border: 2vh white;
+      display: ;
+      padding: 3vh;
+      box-shadow:
+        inset 0px 10px .5em rgba(0, 0, 0, .25),
+        inset .1em 0px .1em rgba(0, 0, 0, .1),
+        inset -0.1em 0px .1em rgba(0, 0, 0, .05),
+        0 .3em .2em #fff;
+    }
+
+    .container {
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      perspective: 2500px;
+      transform-style: preserve-3d;
+      transition: rotate 300ms ease;
+      image-rendering: pixelated;
+    }
+
+    .container.show {
+      rotate: y 180deg;
+    }
+
+    img {
+      border: solid 0.5vh;
+      border-bottom-color: #ffe;
+      border-left-color: #eed;
+      border-right-color: #eed;
+      border-top-color: #ccb;
+      background-color: black;
+      width: 99%;
+      height: auto;
+      display: relative;
+      object-fit: contain;
+    }
+
+    .texture {
+      background-color: #ccd;
+      background-image: repeating-linear-gradient(233deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1) 1px, transparent -19px, transparent 2px);
+    }
+
+    .back,
+    .front {
+      width: 100%;
+      backface-visibility: hidden;
+    }
+
+    .front {
+      justify-content: center;
+      align-items: center;
+      filter: contrast(1.2);
+    }
+
+    .back {
+      position: absolute;
+      top: 1vh;
+      right: 10px;
+      width: 95%;
+      transform: rotateY(180deg);
+      overflow: hidden;
+      background-color: none;
+    }
+
+    .text {
+      color: black;
+      font-size: 2.5vh;
+      font-style: italic;
+      text-align: left;
+    }
+
+    svg {
+      position: absolute;
+    }
+
+    .logo {
+      position: absolute;
+      top: 1vh;
+      left: 6px;
+      width: 12%;
+      height: auto;
+      opacity: 1;
+      border: none;
+      overflow: hidden;
+      filter: contrast(1) invert(1);
+    }
+  </style>
+  <!-- Front Side -->
+  <div class="frame-outer">
+    <div class="frame texture">
+      <div class="container">
+        <div class="front">
+          <img src="https://assets.stamped.ninja/A1380964387736927174.png" />
+          <img class="logo" src="https://assets.stamped.ninja/A1380964387736927174.png" />
+        </div>
+        <!-- Back Side -->
+        <div class="back">
+          <text class="text"> Cryptocurrency, or crypto, is a digital currency that uses cryptography to secure transactions and is not controlled by a central authority like a bank or government. Cryptocurrencies are stored in a digital ledger, which is a computerized database that uses cryptography to verify transactions and control the creation of new coins. </text>
+        </div>
+      </div>
+    </div>
+    <script>
+      // CardFlip Function
+      const card = document.querySelector(".container");
+      card.addEventListener("click", function() {
+        card.classList.toggle("show");
+      });
+    </script>
+</html>
