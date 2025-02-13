@@ -1,0 +1,105 @@
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #014235;
+      color: #FFF;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 34px;
+      text-align: center;
+      margin: 40px 0 40px;
+      padding: 0;
+    }
+
+    .container {
+      background-color: #014235;
+      font-size: clamp(1em, 3vw, 1.5em);
+      width: 100%;
+      margin: 0 auto;
+      overflow: auto;
+      padding: 2%;
+    }
+
+    .right-content,
+    .left-content {
+      float: left;
+      display: block;
+      width: 45%;
+      padding: 2% 2%;
+    }
+
+    .left-content {
+      border-right: 5px dotted #fff;
+      text-align: right;
+    }
+
+    .left-content p {
+      margin: 100px 10px 0;
+    }
+
+    .right-content p {
+      margin: 0px 10px 100px;
+    }
+  </style>
+  <body>
+    <body>
+      <div class="container">
+        <div class="left-content">
+          <p>
+            <b>Block 788041 (MAY 2, 2023)</b>
+            <br>
+            <br> - First SRC-20 Token ($KEVIN) <br> - Created by Reinamora <br> - Introduction of fungible token standard
+          </p>
+          <p>
+            <b>Block 818321 (NOV 24, 2023)</b>
+            <br>
+            <br> - First Music STAMP (Bitmelody) <br> - Created by Stamped Ninja <br> - "RickRoll"
+          </p>
+          <p>
+            <b>Block 833000+ </b>
+            <br>
+            <br> - SRC-721r introduction <br> - Advanced recursive capabilities <br> - SRC-101 development begins <br>
+          </p>
+          <p>
+            <b>Block 849265 (JUN 23, 2024)</b>
+            <br>
+            <br> - Stamps Indexer Open-Sourced <br> - Publicly accessible on Github <br>
+          </p>
+          <p>
+            <b>Block 870652 (NOV 17, 2024)</b>
+            <br>
+            <br> - SRC-101 Activation Block <br> - Domain Name ".BTC" on Bitcoin <br> - Bitname <br>
+          </p>
+        </div>
+        <div class="right-content">
+          <p>
+            <b>Block 779652 (MAR 6, 2023)</b>
+            <br>
+            <br> - First Official Bitcoin Stamp (Stamp 0) <br> - Created by Mikeinspace <br> - Classic Stamps introduction
+          </p>
+          <p>
+            <b>Block 792370 (JUN 1, 2023)</b>
+            <br>
+            <br> - First SRC-721 Stamp "AVIME" <br> - Introduction of layered NFT format <br>
+          </p>
+          <p>
+            <b>Block 833000 (MAR 3, 2024)</b>
+            <br>
+            <br> - OLGA Format implementation <br> - Major efficiency improvements <br> - New transaction format adoption
+          </p>
+          <p>
+            <b>Block 834815 (MAR 15, 2024)</b>
+            <br>
+            <br> - First Unpruneable 3D Game on Bitcoin <br> - Hyperspace <br>
+          </p>
+          <p>
+            <b>Block 866000 (OCT 16, 2024)</b>
+            <br>
+            <br> - Counterparty 2.0 Upgrade <br> - Introduced multiple advance capabilities <br> - Ushering the new age of Atomic Swap <br>
+          </p>
+        </div>
+      </div>
+    </body>
