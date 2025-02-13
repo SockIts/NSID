@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NSID Card Editor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+      image-rendering: pixelated; /* Ensure pixelated rendering */
+    }
+
+    .editor-container {
+      display: flex;
+      gap: 20px; /* Space between form and preview */
+      flex-direction: row; /* Default layout for desktop */
+      height: auto;
+      flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    }
+
+    .form-container {
+      flex: 1; /* Form takes up 1/2 of the width on desktop */
+      max-width: 50%; /* Limit the form's maximum width */
+    }
+
+    .form-container label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .form-container input, .form-container textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .update-button, .copy-code-button {
+      padding: 10px 20px;
+      background-color: #569cd6;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .update-button:hover, .copy-code-button:hover {
+      background-color: #3b78c6;
+    }
+
+    .preview-container {
+      flex: 1; /* Preview takes up 1/2 of the width on desktop */
+      border: 1px solid #ccc;
+      background-color: #fff;
+      overflow: auto;
+      position: relative;
+      min-height: 400px; /* Minimum height for the preview */
+    }
+
+    iframe {
+      width: 100%;
+      height: 430px; /* Full height of the container */
+      border: none;
+    }
+
+    /* Responsive Design for Mobile */
+    @media (max-width: 768px) {
+      .editor-container {
+        flex-direction: column; /* Stack form and preview vertically */
+      }
+
+      .form-container {
+        max-width: 100%; /* Full width on mobile */
+      }
+
+      .preview-container {
+        order: 2; /* Ensure preview appears below the form */
+        min-height: 600px; /* Increase height for mobile to show the entire image */
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Editor Container -->
+  <div class="editor-container">
+    <!-- Form for User Input -->
+    <div class="form-container">
+      <h2>Update Card Details</h2>
+
+      <!-- Card Title -->
+      <label for="card-title">Card Title:</label>
+      <input type="text" id="card-title" placeholder="Enter card title">
+
+      <!-- Card Image URL -->
+      <label for="card-image">Card Image URL:</label>
+      <input type="url" id="card-image" placeholder="Enter image URL">
+
+      <!-- Image Description -->
+      <label for="image-description">Image Description:</label>
+      <input type="text" id="image-description" placeholder="Enter image description">
+
+      <!-- Card Description -->
+      <label for="card-description">Card Description:</label>
+      <textarea id="card-description" rows="4" placeholder="Enter card description"></textarea>
+
+      <!-- Count (e.g., "1/69") -->
+      <label for="card-count">Card Count:</label>
+      <input type="text" id="card-count" placeholder="Enter count (e.g., 1/69)">
+
+      <div style="display: flex; gap: 10px;">
+        <button class="update-button" id="update-button">Update Card</button>
+        <button class="copy-code-button" id="copy-code-button">Copy Code</button>
+      </div>
+    </div>
+
+    <!-- Preview Window -->
+    <div class="preview-container">
+      <iframe id="output-frame"></iframe>
+    </div>
+  </div>
+
+  <script>
+    // Get references to DOM elements
+    const cardTitleInput = document.getElementById('card-title');
+    const cardImageInput = document.getElementById('card-image');
+    const imageDescriptionInput = document.getElementById('image-description');
+    const cardDescriptionInput = document.getElementById('card-description');
+    const cardCountInput = document.getElementById('card-count');
+    const updateButton = document.getElementById('update-button');
+    const copyCodeButton = document.getElementById('copy-code-button');
+
+    const outputFrame = document.getElementById('output-frame');
+
+    // Initial HTML template for the preview
+    let currentHtml = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NSID Card Animation</title>
+  <style>
+    body {
+      display: flex;
+      overflow: hidden;
+      image-rendering: pixelated;
+    }
+    .container {
+      position: relative;
+      left: 1px;
+      top: -8px;
+      width: 100vh;
+      height: 100vh;
+      cursor: pointer;
+      perspective: 2500px;
+      transform-style: preserve-3d;
+      transition: rotate 500ms linear;
+    }
+    .container.show {
+      rotate: y 180deg;
+    }
+    .cardFull {
+        width: 580px;
+        height: 580px;
+        x: 61px;
+        y: 60px;
+        overflow: hidden;
+        filter: brightness(1.2);
+        mix-blend-mode: difference;
+        transform-origin: 350px 350px;
+        align-items: center;
+    }
+    /* Transformation Classes */
+    .transform1a { transform: rotate(-90deg); }
+    .transform1b { transform: rotate(0deg); }
+    .transform1c { transform: rotate(90deg); }
+    .transform1d { transform: rotate(180deg); }
+    .transform2a { transform: scaleX(-1) rotate(-90deg); }
+    .transform2b { transform: scaleX(-1) rotate(0deg); }
+    .transform2c { transform: scaleX(-1) rotate(90deg); }
+    .transform2d { transform: scaleX(-1) rotate(180deg); }
+    .transform3a { transform: scaleY(-1) rotate(-90deg); }
+    .transform3b { transform: scaleY(-1) rotate(0deg); }
+    .transform3c { transform: scaleY(-1) rotate(90deg); }
+    .transform3d { transform: scaleY(-1) rotate(180deg); }
+    .logo {
+      width: 65px; /* Match the clip-path width */
+      height: 65px; /* Match the clip-path height */
+      opacity: 1;
+      filter: contrast(1.5) invert(1);
+    }
+    @keyframes hue {
+      0% { filter: hue-rotate(0deg); }
+      50% { filter: hue-rotate(180deg); }
+      100% { filter: hue-rotate(360deg); }
+    }
+    .hue-animation {
+      animation: hue 3.5s infinite linear;
+    }
+    .hue-animation2 {
+      animation: hue 11s infinite linear;
+    }
+    /* Fonts */
+    .i { font-family: Normal-ExtraBold; opacity: 1; }
+    .n { font-size: 36px; opacity: 1; }
+    .q { font-size: 24px; font-style: italic; opacity: 1; }
+  </style>
+</head>
+<body>
+  <!-- Front Side -->
+  <div class="container" id="Container">
+    <div class="front">
+      <svg viewBox="0 0 700 700">
+        <defs>
+          <clipPath id="clip-frame">
+            <rect x="150" y="60" width="400" height="580" rx="20" ry="20" />
+          </clipPath>
+          <clipPath id="clip-frame2">
+            <rect x="60" y="150" width="580" height="400" rx="20" ry="20" />
+          </clipPath>
+          <clipPath id="clip-logo">
+            <rect x="150" y="60" width="65" height="65" rx="20" />
+          </clipPath>
+          <linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="white" />
+            <stop offset="80%" stop-color="black" />
+          </linearGradient>
+        </defs>
+
+        <!-- Background -->
+        <rect fill="black" x="150" y="60" width="400" height="580" rx="20" ry="20" clip-path="url(#clip-frame)" />
+        <rect fill="url(#grad1)" fill-opacity="0.25" x="150" y="60" width="400" height="580" rx="20" ry="20" clip-path="url(#clip-frame)" />
+
+         <!-- Card Image -->
+        <image class="cardFull transform1a hue-animation" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame2)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform1b hue-animation2" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform1c hue-animation" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame2)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform1d hue-animation2" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform2a hue-animation2" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame2)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform2b hue-animation" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform2c hue-animation2" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame2)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform2d hue-animation" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform3a hue-animation" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame2)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform3b hue-animation2" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform3c hue-animation" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame2)" width="580" height="580" pointer-events="none" />
+        <image class="cardFull transform3d hue-animation2" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               clip-path="url(#clip-frame)" width="580" height="580" pointer-events="none" />
+
+        <!-- Logo -->
+        <image class="logo" href="https://stampchain.io/stamps/703a8e43fbad456480a6a0820584ded924151278a09e1b832b3e11e2299d1a3a.svg" 
+               x="150" y="60" width="65" height="65" clip-path="url(#clip-logo)" />
+
+        <!-- Card Title with Black Border -->
+        <text class="i n" fill="black" stroke="white" stroke-width="1" x="240" y="100">NSID Cards</text>
+
+        <!-- Image Description -->
+        <text fill="black" stroke="white" stroke-width="1" font-size="28" x="180" y="496">Type: Item</text>
+        
+        <!-- Count -->
+        <text font-size="28" fill="white" opacity="0.7" x="506" y="616" text-anchor="middle">1/15</text>
+
+         <!-- Card Description -->
+          <foreignObject x="180" y="450" width="340" height="200">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 20px; color: white; opacity: 0.7; word-wrap: break-word; overflow-wrap: break-word; white-space: pre-wrap;">
+              <p>Flip a coin when attacked. If heads, the attacking creature dies and Derp is unharmed.</p>
+            </div>
+          </foreignObject>
+
+        <!-- Border -->
+        <rect stroke="orange" stroke-width="2" fill="none" width="400" x="150" y="60" height="580" rx="20" ry="20" />
+      </svg>
+    </div>
+  </div>
+</body>
+</html>
+    `;
+// Function to update the preview
+    function updatePreview() {
+      outputFrame.srcdoc = currentHtml;
+    }
+
+    // Add click event listener to the update button
+    updateButton.addEventListener('click', () => {
+
+      // Update the card title
+      const newTitle = cardTitleInput.value.trim();
+      if (newTitle) {
+        currentHtml = currentHtml.replace(/<text class="i n" fill="black" stroke="white" stroke-width="1" x="240" y="100">[^<]+<\/text>/, `<text class="i n" fill="black" stroke="white" stroke-width="1" x="240" y="100">${newTitle}</text>`);
+      } else {
+        alert('Please enter a valid card title.');
+        return;
+      }
+
+      // Update the card image
+      const newImageHref = cardImageInput.value.trim();
+      if (newImageHref) {
+        currentHtml = currentHtml.replace(/<image class="cardFull transform1a hue-animation" href="[^"]+"/, `<image class="cardFull transform1a hue-animation" href="${newImageHref}"`);
+        currentHtml = currentHtml.replace(/<image class="cardFull transform1b hue-animation2" href="[^"]+"/, `<image class="cardFull transform1b hue-animation2" href="${newImageHref}"`);
+        currentHtml = currentHtml.replace(/<image class="cardFull transform1c hue-animation" href="[^"]+"/, `<image class="cardFull transform1c hue-animation" href="${newImageHref}"`);
+        currentHtml = currentHtml.replace(/<image class="cardFull transform1d hue-animation2" href="[^"]+"/, `<image class="cardFull transform1d hue-animation2" href="${newImageHref}"`);
+
+        currentHtml = currentHtml.replace(/<image class="cardFull transform2a hue-animation2" href="[^"]+"/, `<image class="cardFull transform2a hue-animation2" href="${newImageHref}"`);
+        currentHtml = currentHtml.replace(/<image class="cardFull transform2b hue-animation" href="[^"]+"/, `<image class="cardFull transform2b hue-animation" href="${newImageHref}"`);
+        currentHtml = currentHtml.replace(/<image class="cardFull transform2c hue-animation2" href="[^"]+"/, `<image class="cardFull transform2c hue-animation2" href="${newImageHref}"`);
+        currentHtml = currentHtml.replace(/<image class="cardFull transform2d hue-animation" href="[^"]+"/, `<image class="cardFull transform2d hue-animation" href="${newImageHref}"`);
+
+        currentHtml = currentHtml.replace(/<image class="cardFull transform3a hue-animation" href="[^"]+"/, `<image class="cardFull transform3a hue-animation" href="${newImageHref}"`);
+        currentHtml = currentHtml.replace(/<image class="cardFull transform3b hue-animation2" href="[^"]+"/, `<image class="cardFull transform3b hue-animation2" href="${newImageHref}"`);
+        currentHtml = currentHtml.replace(/<image class="cardFull transform3c hue-animation" href="[^"]+"/, `<image class="cardFull transform3c hue-animation" href="${newImageHref}"`);
+        currentHtml = currentHtml.replace(/<image class="cardFull transform3d hue-animation2" href="[^"]+"/, `<image class="cardFull transform3d hue-animation2" href="${newImageHref}"`);
+ 
+        currentHtml = currentHtml.replace(/<image class="logo" href="[^"]+"/, `<image class="logo" href="${newImageHref}"`);
+        
+      } else {
+        alert('Please enter a valid image URL.');
+        return;
+      }
+
+      // Update the image description
+      const newImageDescription = imageDescriptionInput.value.trim();
+      if (newImageDescription) {
+        currentHtml = currentHtml.replace(/<text fill="black" stroke="white" stroke-width="1" font-size="28" x="180" y="496">[^<]+<\/text>/, `<text fill="black" stroke="white" stroke-width="1" font-size="28" x="180" y="496">${newImageDescription}</text>`);
+      } else {
+        alert('Please enter a valid image description.');
+        return;
+      }
+
+      // Update the card description
+      const newDescription = cardDescriptionInput.value.trim();
+      if (newDescription) {
+        currentHtml = currentHtml.replace(/<p>[^<]+<\/p>/, `<p>${newDescription}</p>`);
+      
+      } else {
+        alert('Please enter a valid card description.');
+        return;
+      }
+
+      // Update the card count
+      const newCount = cardCountInput.value.trim();
+      if (newCount) {
+        currentHtml = currentHtml.replace(/<text font-size="28" fill="white" opacity="0.7" x="506" y="616" text-anchor="middle">[^<]+<\/text>/, `<text font-size="28" fill="white" opacity="0.7" x="506" y="616" text-anchor="middle">${newCount}</text>`);
+      } else {
+        alert('Please enter a valid card count.');
+        return;
+      }
+
+      // Update the preview
+      updatePreview();
+
+      alert('Card updated successfully!');
+    });
+
+    // Add click event listener to the Copy Code button
+    copyCodeButton.addEventListener('click', () => {
+      navigator.clipboard.writeText(currentHtml)
+        .then(() => {
+          alert('HTML code copied to clipboard!');
+        })
+        .catch((error) => {
+          console.error('Error copying code:', error);
+          alert('Failed to copy code. Please try again.');
+        });
+    });
+
+    // Initial preview update
+    updatePreview();
+  </script>
+</body>
+</html>

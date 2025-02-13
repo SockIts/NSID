@@ -1,5 +1,27 @@
-Html codes for Timeline used on NSID main homepage.
+NSID custom HTML Card Generators
 
-Timeline:  A vertical timeline with alternating (left and right) currently being used to display various STAMP innovation.  Each events contained the Block number and date that the events took placed. and various information and discription about each event.  
+The NSID card generator allow user to customize and create various Stamp card in HTML format using various template
 
-![alt text](<NSID Stamp Timeline.png>)
+Basic Card Template:  Generate basic basic cards
+
+Inputs:
+    Card Title:
+    Card Image URL:
+    Image Description:
+    Card Description:
+    Card Count: 
+
+![alt text](<Basic Card Generator.png>)
+
+Animated Card Template:  Generate animated cards
+
+Inputs:
+    Card Title:
+    Card Image URL:
+    Image Description:
+    Card Description:
+    Card Count: 
+
+![alt text](<Animated Card Generator.png>)
+
+

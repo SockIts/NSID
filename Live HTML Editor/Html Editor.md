@@ -1,5 +1,5 @@
-Html codes for Timeline used on NSID main homepage.
+Live HTML Editor that allow the user to run HTML code directly using the editor.  The editor contained three buttons (Copy, Undo and Reset) for additional flexibility.
 
-Timeline:  A vertical timeline with alternating (left and right) currently being used to display various STAMP innovation.  Each events contained the Block number and date that the events took placed. and various information and discription about each event.  
+![alt text](<Live HTML Editor.png>)
 
-![alt text](<NSID Stamp Timeline.png>)
+

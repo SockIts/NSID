@@ -1,0 +1,263 @@
+Basic Cards
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live HTML Editor with Templates</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+      image-rendering: pixelated; /* Ensure pixelated rendering */
+    }
+
+    .editor-container {
+      display: flex;
+      gap: 20px; /* Space between form and preview */
+      flex-direction: row; /* Default layout for desktop */
+      height: auto;
+      flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    }
+
+    .form-container {
+      flex: 1; /* Form takes up 1/2 of the width on desktop */
+      max-width: 50%; /* Limit the form's maximum width */
+    }
+
+    .form-container label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .form-container input, .form-container textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .update-button, .copy-code-button {
+      padding: 10px 20px;
+      background-color: #569cd6;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .update-button:hover, .copy-code-button:hover {
+      background-color: #3b78c6;
+    }
+
+    .preview-container {
+      flex: 1; /* Preview takes up 1/2 of the width on desktop */
+      border: 1px solid #ccc;
+      background-color: #fff;
+      overflow: auto;
+      position: relative;
+      min-height: 300px; /* Minimum height for the preview */
+    }
+
+    iframe {
+      width: 100%;
+      height: 430px;
+      border: none;
+    }
+
+    /* Responsive Design for Mobile */
+    @media (max-width: 768px) {
+      .editor-container {
+        flex-direction: column; /* Stack form and preview vertically */
+      }
+
+      .form-container {
+        max-width: 100%; /* Full width on mobile */
+      }
+
+      .preview-container {
+        order: 2; /* Ensure preview appears below the form */
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Editor Container -->
+  <div class="editor-container">
+    <!-- Form for User Input -->
+    <div class="form-container">
+      <h2>Update Card Details</h2>
+
+      <!-- Card Title -->
+      <label for="card-title">Card Title:</label>
+      <input type="text" id="card-title" placeholder="Enter card title">
+
+      <!-- Card Image URL -->
+      <label for="card-image">Card Image URL:</label>
+      <input type="url" id="card-image" placeholder="Enter image URL">
+
+      <!-- Image Description -->
+      <label for="image-description">Image Description:</label>
+      <input type="text" id="image-description" placeholder="Enter image description">
+
+      <!-- Card Description -->
+      <label for="card-description">Card Description:</label>
+      <textarea id="card-description" rows="4" placeholder="Enter card description"></textarea>
+
+      <!-- Count (e.g., "1/69") -->
+      <label for="card-count">Card Count:</label>
+      <input type="text" id="card-count" placeholder="Enter count (e.g., 1/69)">
+
+      <div style="display: flex; gap: 10px;">
+        <button class="update-button" id="update-button">Update Card</button>
+        <button class="copy-code-button" id="copy-code-button">Copy Code</button>
+      </div>
+    </div>
+
+    <!-- Preview Window -->
+    <div class="preview-container">
+      <iframe id="output-frame"></iframe>
+    </div>
+  </div>
+
+  <script>
+    // Get references to DOM elements
+    const cardTitleInput = document.getElementById('card-title');
+    const cardImageInput = document.getElementById('card-image');
+    const imageDescriptionInput = document.getElementById('image-description');
+    const cardDescriptionInput = document.getElementById('card-description');
+    const cardCountInput = document.getElementById('card-count');
+    const updateButton = document.getElementById('update-button');
+    const copyCodeButton = document.getElementById('copy-code-button');
+
+    const outputFrame = document.getElementById('output-frame');
+
+    // Initial HTML template for the preview
+    let currentHtml = `
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>Generated Card</title>
+        <style>
+          body { image-rendering: pixelated; }
+        </style>
+      </head>
+
+      <body>
+        <svg id="card-svg" viewBox="-150 -50 700 700">
+
+          <!-- Card Background with Black Border -->
+          <rect stroke="black" stroke-width="16" fill="#eee" width="400" x="10" y="10" height="580" rx="20"></rect>
+          <!-- Image Black Background -->
+          <rect fill="underlined" x="40" y="70" width="340" height="300"></rect>
+          
+<!-- Card Image -->
+          <image class="pxl" href="https://assets.stamped.ninja/A482316818867473440.gif" x="50" y="70" width="320" height="320"></image>
+          
+<!-- Card Title with Black Border -->
+          <rect stroke="black" stroke-width="4" fill="#ddd" x="30" y="34" width="360" height="44" rx="10"></rect>
+          <text class="i" font-size="28" x="50" y="64">Hal Finey Runner</text>
+          
+<!-- Image Description -->
+          <rect stroke="black" stroke-width="4" fill="#ddd" rx="10" x="30" y="370" width="360" height="40"></rect>
+          <text class="i" font-size="20" x="50" y="396">STAMP # 722344</text>
+          
+<!-- Main Description -->
+          <rect stroke="black" stroke-width="4" fill="#eee" x="34" y="410" width="350" height="150" rx="10"></rect>
+          
+<!-- Card Description -->
+          <foreignObject x="44" y="370" width="340" height="200">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 14px; color: black; word-wrap: break-word; 			overflow-wrap: break-word; white-space: pre-wrap;">
+              <p>Flip a coin when attacked. If heads, the attacking creature dies and Derp is unharmed.</p>
+            </div>
+          </foreignObject>
+          <!-- Count Background with Black Border -->
+          <rect stroke="black" stroke-width="4" fill="#ddd" rx="10" x="320" y="530" width="70" height="40"></rect>
+          <!-- Count Text -->
+          <text y="558" transform="translate(352)">
+            <tspan x="0" class="i" font-size="24" text-anchor="middle">1/69</tspan>
+          </text>
+        </svg>
+      </body>
+      </html>
+    `;
+
+    // Function to update the preview
+    function updatePreview() {
+      outputFrame.srcdoc = currentHtml;
+    }
+
+    // Add click event listener to the update button
+    updateButton.addEventListener('click', () => {
+      // Update the card title
+      const newTitle = cardTitleInput.value.trim();
+      if (newTitle) {
+        currentHtml = currentHtml.replace(/<text class="i" font-size="28" x="50" y="64">[^<]+<\/text>/, `<text class="i" font-size="28" x="50" y="64">${newTitle}</text>`);
+      } else {
+        alert('Please enter a valid card title.');
+        return;
+      }
+
+      // Update the card image
+      const newImageHref = cardImageInput.value.trim();
+      if (newImageHref) {
+        currentHtml = currentHtml.replace(/<image class="pxl" href="[^"]+"/, `<image class="pxl" href="${newImageHref}"`);
+      } else {
+        alert('Please enter a valid image URL.');
+        return;
+      }
+
+      // Update the image description
+      const newImageDescription = imageDescriptionInput.value.trim();
+      if (newImageDescription) {
+        currentHtml = currentHtml.replace(/<text class="i" font-size="20" x="50" y="396">[^<]+<\/text>/, `<text class="i" font-size="20" x="50" y="396">${newImageDescription}</text>`);
+      } else {
+        alert('Please enter a valid image description.');
+        return;
+      }
+
+      // Update the card description
+      const newDescription = cardDescriptionInput.value.trim();
+      if (newDescription) {
+        currentHtml = currentHtml.replace(/<p>[^<]+<\/p>/, `<p>${newDescription}</p>`);
+      } else {
+        alert('Please enter a valid card description.');
+        return;
+      }
+
+      // Update the card count
+      const newCount = cardCountInput.value.trim();
+      if (newCount) {
+        currentHtml = currentHtml.replace(/<tspan x="0" class="i" font-size="24" text-anchor="middle">[^<]+<\/tspan>/, `<tspan x="0" class="i" font-size="24" text-anchor="middle">${newCount}</tspan>`);
+      } else {
+        alert('Please enter a valid card count.');
+        return;
+      }
+
+      // Update the preview
+      updatePreview();
+
+      alert('Card updated successfully!');
+    });
+
+    // Add click event listener to the Copy Code button
+    copyCodeButton.addEventListener('click', () => {
+      navigator.clipboard.writeText(currentHtml)
+        .then(() => {
+          alert('HTML code copied to clipboard!');
+        })
+        .catch((error) => {
+          console.error('Error copying code:', error);
+          alert('Failed to copy code. Please try again.');
+        });
+    });
+
+    // Initial preview update
+    updatePreview();
+  </script>
+</body>
+</html>
