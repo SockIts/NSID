@@ -40,7 +40,7 @@ const App = () => {
             <Route path="/legacyindex" element={<LegacyIndex />} />
             <Route path="/index01" element={<Index01 />} />
             <Route path="/index02" element={<Index02 />} />
-            <Route path="/index03" element={<Index03 />} />
+            <Route path="/index03" element={<Index03 />} /> 
           </Routes>
         </Router>
       </Box>
