@@ -1,0 +1,1892 @@
+[
+  {
+    "series": "1",
+    "card": "1",
+    "asset": "A235681574700097016",
+    "issuance": 69,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A235681574700097016",
+    "image": "https://stampchain.io/stamps/b14ae298f54b66c0bc257f413679e22347b5e5e820f950d5ce861b2edbf0a926.png"
+  },
+  {
+    "series": "1",
+    "card": "2",
+    "asset": "A940014580907360134",
+    "issuance": 21,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A940014580907360134",
+    "image": "https://stampchain.io/stamps/6f3964da8ed8c9ce82ac9a71ca5a51ad8c4266658590a22d846984c7d9fb6d10.png"
+  },
+  {
+    "series": "1",
+    "card": "3",
+    "asset": "A14099796742918991159",
+    "issuance": 21,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A14099796742918991159",
+    "image": "https://stampchain.io/stamps/cc04e600b025ae6b95835202c26259949aa976f1bac1532ff2f2cd881cca0d70.png"
+  },
+  {
+    "series": "1",
+    "card": "4",
+    "asset": "A1486226385838604027",
+    "issuance": 42,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A1486226385838604027",
+    "image": "https://stampchain.io/stamps/f6c6093acd54bdb3c938473a3a393d2f36fd6fa2b6ae34b7a5417b2e6cf57ba2.gif"
+  },
+  {
+    "series": "1",
+    "card": "5",
+    "asset": "A8008135800813580085",
+    "issuance": 21,
+    "artist": "Regan X Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A8008135800813580085",
+    "image": "https://stampchain.io/stamps/98048c3285fa39b539de7250b52f6bb721a7a65d0fd7acce2381051dbc1b13bf.png"
+  },
+  {
+    "series": "1",
+    "card": "6",
+    "asset": "A9392207840692937001",
+    "issuance": 100,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A9392207840692937001",
+    "image": "https://stampchain.io/stamps/e5fc32f6a2b3ca4c439366bdfc7aa360cdf9ef6dd0677f46035d84bf94945e33.svg"
+  },
+  {
+    "series": "1",
+    "card": "7",
+    "asset": "A171400198500744822",
+    "issuance": 42,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A171400198500744822",
+    "image": "https://stampchain.io/stamps/02c2d49bc9c081a79b07e0442a75f3a7e7e78902323c952d153b6e5577bcc8ea.gif"
+  },
+  {
+    "series": "1",
+    "card": "8",
+    "asset": "A319607656399623967",
+    "issuance": 10,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A319607656399623967",
+    "image": "https://stampchain.io/stamps/1b51abdbf54b21c1eea7e9ceaef0db782ed27e0308d98e781070d29513989812.png"
+  },
+  {
+    "series": "1",
+    "card": "9",
+    "asset": "A566591309593173961",
+    "issuance": 10,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A566591309593173961",
+    "image": "https://stampchain.io/stamps/4ef42f0bc7e5a3f2d491ed34bd8613bee8cec5b741d413943505321be0699b7a.png"
+  },
+  {
+    "series": "1",
+    "card": "10",
+    "asset": "A1133718708507250879",
+    "issuance": 69,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A1133718708507250879",
+    "image": "https://stampchain.io/stamps/a0198d6303210cd577961325546d290cea49f5ef81830885d77ef7fd9629e2d8.png"
+  },
+  {
+    "series": "1",
+    "card": "11",
+    "asset": "A1888888877444444444",
+    "issuance": 100,
+    "artist": "Harvey Vogelmann",
+    "link": "https://horizon.market/explorer/assets/A1888888877444444444",
+    "image": "https://stampchain.io/stamps/73db64cbbe4b47312710013a2a15ebc273d7122e5fc39a1ffd6748884cd7e00e.svg"
+  },
+  {
+    "series": "1",
+    "card": "12",
+    "asset": "A12301588492677696204",
+    "issuance": 97,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A12301588492677696204",
+    "image": "https://stampchain.io/stamps/a091caa758ae6d9677accba2cf478a54423e2f2ff391ae6cfb446340dbc149a8.svg"
+  },
+  {
+    "series": "1",
+    "card": "13",
+    "asset": "A1633064411887062995",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A1633064411887062995",
+    "image": "https://stampchain.io/stamps/b7c9d2030245616092b933ea714ac6c7afeb2f325b7df1a413d1f47970411b71.svg"
+  },
+  {
+    "series": "1",
+    "card": "14",
+    "asset": "A6047360473604796047",
+    "issuance": 60,
+    "artist": "Tepixelabs",
+    "link": "https://horizon.market/explorer/assets/A6047360473604796047",
+    "image": "https://stampchain.io/stamps/239ea80f75943a29e8173ab8f5b6fbfc1574c5a1867f5994d812967a37a02874.png"
+  },
+  {
+    "series": "1",
+    "card": "15",
+    "asset": "A932057078326456965",
+    "issuance": 69,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A932057078326456965",
+    "image": "https://stampchain.io/stamps/868923adcfee9eb57e585d3c088e93c51c69b88bd977faf71de2321361082c57.png"
+  },
+  {
+    "series": "1",
+    "card": "16",
+    "asset": "A1380964387736927174",
+    "issuance": 35,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A1380964387736927174",
+    "image": "https://stampchain.io/stamps/811cf75f984da6a9ed2b480a59569f00465f4af3790538d02f85e8fe8bc69467.png"
+  },
+  {
+    "series": "1",
+    "card": "17",
+    "asset": "A16516511312654165165",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A16516511312654165165",
+    "image": "https://stampchain.io/stamps/8b61569d8661b2db17ccd133296cf5b27783365f59c51d57b72e252bcfea90b9.svg"
+  },
+  {
+    "series": "1",
+    "card": "18",
+    "asset": "A3811804285071215000",
+    "issuance": 100,
+    "artist": "KAWABANGGA",
+    "link": "https://horizon.market/explorer/assets/A3811804285071215000",
+    "image": "https://stampchain.io/stamps/31cc5c9a25825d556cbd409132926c8f0f71afe627b293c6cdf90f11dcc243d6.webp"
+  },
+  {
+    "series": "1",
+    "card": "19",
+    "asset": "A12494904862002504506",
+    "issuance": 100,
+    "artist": "RAOUL",
+    "link": "https://horizon.market/explorer/assets/A12494904862002504506",
+    "image": "https://stampchain.io/stamps/579901ac986114b640ec4c3ec52e7cc843d81f607d6726cb3032e7b2827202bb.png"
+  },
+  {
+    "series": "1",
+    "card": "20",
+    "asset": "A18229745775351970619",
+    "issuance": 100,
+    "artist": "Harvey Vogelmann",
+    "link": "https://horizon.market/explorer/assets/A18229745775351970619",
+    "image": "https://stampchain.io/stamps/5b9b3bd1d9fbbc8e7494bf462910239c5fe7c1bdaa47c42aac1eaf25472955af.svg"
+  },
+  {
+    "series": "1",
+    "card": "21",
+    "asset": "A508628503415123146",
+    "issuance": 10,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A508628503415123146",
+    "image": "https://stampchain.io/stamps/97ef90f5669c0494d198f280a093bc5cca292469113c228e5c6ab88a5392fbc4.png"
+  },
+  {
+    "series": "1",
+    "card": "22",
+    "asset": "A666999696969696969",
+    "issuance": 1,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A666999696969696969",
+    "image": "https://stampchain.io/stamps/28b4b965c08a77d2feda3e9f379778f5ca7b9bf3b413ed61da8b9449b724384a.png"
+  },
+  {
+    "series": "1",
+    "card": "23",
+    "asset": "A6765816240871923000",
+    "issuance": 42,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A6765816240871923000",
+    "image": "https://stampchain.io/stamps/1a9d085045d61206f3bbe0d56888d21435f37be8d6f1f3c016f346f8b054f8b4.png"
+  },
+  {
+    "series": "1",
+    "card": "24",
+    "asset": "A808011111111111111",
+    "issuance": 300,
+    "artist": "Regan",
+    "link": "https://horizon.market/explorer/assets/A808011111111111111",
+    "image": "https://stampchain.io/stamps/bd4749eff60a10388d12b5d416d6e2f1c3b29595b769901a90710750d0a5a9d2.png"
+  },
+  {
+    "series": "1",
+    "card": "25",
+    "asset": "A8100000000000000018",
+    "issuance": 81,
+    "artist": "an0n",
+    "link": "https://horizon.market/explorer/assets/A8100000000000000018",
+    "image": "https://stampchain.io/stamps/cdc1bc9082c2c8831f1d9fc0ef624d60e730ae377d8a95d19e64529260744cc2.svg"
+  },
+  {
+    "series": "1",
+    "card": "26",
+    "asset": "A8886513925264515000",
+    "issuance": 21,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A8886513925264515000",
+    "image": "https://stampchain.io/stamps/2a5b7c4bac01b5dd8dc394618e1187703c8f12ecdf24411a5a7855636bc429d6.png"
+  },
+  {
+    "series": "1",
+    "card": "27",
+    "asset": "A1619006396900464164",
+    "issuance": 299,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A1619006396900464164",
+    "image": "https://stampchain.io/stamps/1876c3bbeab9a6046a0913591e9a8e9ee9fc147ed912fe151ecab777a2e102a5.svg"
+  },
+  {
+    "series": "1",
+    "card": "28",
+    "asset": "A2906551588338565600",
+    "issuance": 100,
+    "artist": "Blockjack",
+    "link": "https://horizon.market/explorer/assets/A2906551588338565600",
+    "image": "https://stampchain.io/stamps/516c3b1db9609d2065c60c0bf4b48929e4f075c8babb335eeb078222c3974fb4.svg"
+  },
+  {
+    "series": "1",
+    "card": "29",
+    "asset": "A189108414159917453",
+    "issuance": 42,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A189108414159917453",
+    "image": "https://stampchain.io/stamps/6111dc28ca01e97cc0999508ea9a1da84ff69c0da91b547fbae33e276c373436.gif"
+  },
+  {
+    "series": "1",
+    "card": "30",
+    "asset": "A2205082538254051553",
+    "issuance": 420,
+    "artist": "AZ&Tepixelabs",
+    "link": "https://horizon.market/explorer/assets/A2205082538254051553",
+    "image": "https://stampchain.io/stamps/ebd4e8a14bdcb268653fdd015cfdda29eef230023c485c951e5e515c79df1b96.png"
+  },
+  {
+    "series": "1",
+    "card": "31",
+    "asset": "A640327774300092058",
+    "issuance": 21,
+    "artist": "Tony NL",
+    "link": "https://horizon.market/explorer/assets/A640327774300092058",
+    "image": "https://stampchain.io/stamps/927419b652b9d7c4a5d554c8b17c8d53a59907b546ecfbcc93ee2fe49e2a1b1d.svg"
+  },
+  {
+    "series": "1",
+    "card": "32",
+    "asset": "A481272631453105652",
+    "issuance": 1,
+    "artist": "SASHA CHUDO",
+    "link": "https://horizon.market/explorer/assets/A481272631453105652",
+    "image": "https://stampchain.io/stamps/40f2b82f08034af6c8050dac6dad559dd7c670a9db6595328f5f652db3e6c855.svg"
+  },
+  {
+    "series": "1",
+    "card": "33",
+    "asset": "A5555554045555555555",
+    "issuance": 99,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A5555554045555555555",
+    "image": "https://stampchain.io/stamps/7a3505ffe78b0b2c26e5ff76f5768682983d080921ad3468b86cf873f5d1a5a0.png"
+  },
+  {
+    "series": "1",
+    "card": "34",
+    "asset": "A636020886564973588",
+    "issuance": 21,
+    "artist": "Tepixelabs",
+    "link": "https://horizon.market/explorer/assets/A636020886564973588",
+    "image": "https://stampchain.io/stamps/60d1e77b5c2484a95653997b61c68116cd7612d8455b6b7df7ae85d04609a5de.png"
+  },
+  {
+    "series": "1",
+    "card": "35",
+    "asset": "A1059031873638024061",
+    "issuance": 100,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A1059031873638024061",
+    "image": "https://stampchain.io/stamps/24c21a1ef566052328502873e5fa1d8d64dbea6387f6f86ee2a47fd74145e185.png"
+  },
+  {
+    "series": "1",
+    "card": "36",
+    "asset": "A18429515139172954198",
+    "issuance": 300,
+    "artist": "Stampy Stamperson",
+    "link": "https://horizon.market/explorer/assets/A18429515139172954198",
+    "image": "https://stampchain.io/stamps/92ebb178f25f0616e192e273bd1eb9653eb7599053da519693821a628845a739.png"
+  },
+  {
+    "series": "1",
+    "card": "37",
+    "asset": "A889182402850819888",
+    "issuance": 21,
+    "artist": "KAWABANGGA",
+    "link": "https://horizon.market/explorer/assets/A889182402850819888",
+    "image": "https://stampchain.io/stamps/19aca92fe0d51593f5780d1ba1d7b441bfbf790a16bf49c7c451b773d4a45b20.png"
+  },
+  {
+    "series": "1",
+    "card": "38",
+    "asset": "A12378936065685731876",
+    "issuance": 35,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A12378936065685731876",
+    "image": "https://stampchain.io/stamps/668ad843e05bcd4b739adc384265f2e8f31e40e85956d0380d2a1327603dd789.png"
+  },
+  {
+    "series": "1",
+    "card": "39",
+    "asset": "A14947915978491386000",
+    "issuance": 200,
+    "artist": "Rare Scrilla",
+    "link": "https://horizon.market/explorer/assets/A14947915978491386000",
+    "image": "https://stampchain.io/stamps/ce67808a8d68077f7641d4d4565c4344a80e8a5f58bc7552a4fb6c26df7dc42f.png"
+  },
+  {
+    "series": "1",
+    "card": "40",
+    "asset": "A655512093478039952",
+    "issuance": 100,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A655512093478039952",
+    "image": "https://stampchain.io/stamps/2ddc882c0e690c51b5349da7cdac6ccf79ec5301119fd7d02623e017dceae00e.png"
+  },
+  {
+    "series": "1",
+    "card": "41",
+    "asset": "A10565470204951350000",
+    "issuance": 298,
+    "artist": "pifu",
+    "link": "https://horizon.market/explorer/assets/A10565470204951350000",
+    "image": "https://stampchain.io/stamps/ce770ab8fcd7f23cfb6bc5c13e80a3cd3dbac5b5904e9882185e74d39ac53da4.png"
+  },
+  {
+    "series": "1",
+    "card": "42",
+    "asset": "A1122957051225484408",
+    "issuance": 69,
+    "artist": "SASHA CHUDO",
+    "link": "https://horizon.market/explorer/assets/A1122957051225484408",
+    "image": "https://stampchain.io/stamps/c9fbdc9bf60409312e49f50d5dfba21c97b281c71f24d26c9edde590df25e476.svg"
+  },
+  {
+    "series": "2",
+    "card": "1",
+    "asset": "A1377422988007421759",
+    "issuance": 69,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A1377422988007421759",
+    "image": "https://stampchain.io/stamps/62a4508ea758c4e89923e852500159c8fc0e80e9ba9d4d7ea3756b9427f79e8c.png"
+  },
+  {
+    "series": "2",
+    "card": "2",
+    "asset": "A10891337924982120000",
+    "issuance": 21,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A10891337924982120000",
+    "image": "https://stampchain.io/stamps/de5b2975240e74ae0f05523aee884bb1780797cc81651aabd0f32530a0f4a3af.png"
+  },
+  {
+    "series": "2",
+    "card": "3",
+    "asset": "A931199968408912208",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A931199968408912208",
+    "image": "https://stampchain.io/stamps/3e36b36203da25852989ee19bea073da772787d42d3cd7507dca384327af50d3.svg"
+  },
+  {
+    "series": "2",
+    "card": "4",
+    "asset": "A12394435489634753420",
+    "issuance": 100,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A12394435489634753420",
+    "image": "https://stampchain.io/stamps/13ccd29d51bf91929f7ccff52f5f2f1a12d0d81d6f95f3769c98d0aaeec4f364.svg"
+  },
+  {
+    "series": "2",
+    "card": "5",
+    "asset": "A6181134718996147082",
+    "issuance": 35,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A6181134718996147082",
+    "image": "https://stampchain.io/stamps/1db5eea256de7544375bb6e3a583b4195b092c326976c2cd59e1f1489ade11b1.gif"
+  },
+  {
+    "series": "2",
+    "card": "6",
+    "asset": "A12307493453657792498",
+    "issuance": 100,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A12307493453657792498",
+    "image": "https://stampchain.io/stamps/ae30ff2011aeeb01e669c646898044b2b9180accbbcfc553a61fe986365d5fde.svg"
+  },
+  {
+    "series": "2",
+    "card": "7",
+    "asset": "A575118490871622340",
+    "issuance": 69,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A575118490871622340",
+    "image": "https://stampchain.io/stamps/0ee3e198a5d4147ff5c003d1b60b70f3fda3882c09641c41e2f473f812c917c9.png"
+  },
+  {
+    "series": "2",
+    "card": "8",
+    "asset": "A5968356289406155902",
+    "issuance": 100,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A5968356289406155902",
+    "image": "https://stampchain.io/stamps/27492f71199589c08e6d884087cc2700eb824b19c9198348ce6a61be1966706a.svg"
+  },
+  {
+    "series": "2",
+    "card": "9",
+    "asset": "A842445824702157800",
+    "issuance": 100,
+    "artist": "Logik",
+    "link": "https://horizon.market/explorer/assets/A842445824702157800",
+    "image": "https://stampchain.io/stamps/a469bacec0e9901960cb75e371c52a3a39a3ec8b931e595d84ec1062a6a19ac2.svg"
+  },
+  {
+    "series": "2",
+    "card": "10",
+    "asset": "A880205188859608088",
+    "issuance": 1,
+    "artist": "dyle",
+    "link": "https://horizon.market/explorer/assets/A880205188859608088",
+    "image": "https://stampchain.io/stamps/feebccf97b407a3f3ba05af1c30a05da63b756fca37e5eb950d002ad3de25b6f.png"
+  },
+  {
+    "series": "2",
+    "card": "11",
+    "asset": "A1125418907074315000",
+    "issuance": 33,
+    "artist": "Zoku",
+    "link": "https://horizon.market/explorer/assets/A1125418907074315000",
+    "image": "https://stampchain.io/stamps/e3117469366357574a95442428c1775b5a78170bc75c0ba8493b4259c6068a13.gif"
+  },
+  {
+    "series": "2",
+    "card": "12",
+    "asset": "A1069924599796934237",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A1069924599796934237",
+    "image": "https://stampchain.io/stamps/b3390bf3797dc965a115ed3f383798c3efbb633bf4b5543d539c607a9c72f87e.svg"
+  },
+  {
+    "series": "2",
+    "card": "13",
+    "asset": "A12309317120984734906",
+    "issuance": 18,
+    "artist": "Tepixelabs",
+    "link": "https://horizon.market/explorer/assets/A12309317120984734906",
+    "image": "https://stampchain.io/stamps/075fa69f6ae97b24d0b2c52ff54125f774ef0b46dd6cb3d07dff9651e7d890c0.png"
+  },
+  {
+    "series": "2",
+    "card": "14",
+    "asset": "A672631645343727476",
+    "issuance": 69,
+    "artist": "SASHA CHUDO",
+    "link": "https://horizon.market/explorer/assets/A672631645343727476",
+    "image": "https://stampchain.io/stamps/f98ee89f02627f5ce5b109528b980be11cf5444a75c2d2cbdbcae89ecfde5a52.svg"
+  },
+  {
+    "series": "2",
+    "card": "15",
+    "asset": "A1050361238670121434",
+    "issuance": 10,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A1050361238670121434",
+    "image": "https://stampchain.io/stamps/e046e848519f511046ac2cea5ee42153c626500094e1357994fa8e935e27fd01.png"
+  },
+  {
+    "series": "2",
+    "card": "16",
+    "asset": "A8802628178026515559",
+    "issuance": 45,
+    "artist": "Juan Galt",
+    "link": "https://horizon.market/explorer/assets/A8802628178026515559",
+    "image": "https://stampchain.io/stamps/e1282a126eb6b39f88314cd1c5d62527f337c681e04217d3920aeeb999e5e14b.png"
+  },
+  {
+    "series": "2",
+    "card": "17",
+    "asset": "A1358429350926785447",
+    "issuance": 69,
+    "artist": "Sofitzticated",
+    "link": "https://horizon.market/explorer/assets/A1358429350926785447",
+    "image": "https://stampchain.io/stamps/d3ca746655df6c6f46a97fe967e23633bd6e72113bc2b9b820942fa677e7caf1.svg"
+  },
+  {
+    "series": "2",
+    "card": "18",
+    "asset": "A1397990226586964852",
+    "issuance": 100,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A1397990226586964852",
+    "image": "https://stampchain.io/stamps/93606fe7bfebe3ff20a85cab5da87cca051a6e904fb94f7fb3a449123cc139a4.png"
+  },
+  {
+    "series": "2",
+    "card": "19",
+    "asset": "A438721614820519638",
+    "issuance": 7,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A438721614820519638",
+    "image": "https://stampchain.io/stamps/db8dc64de3bcee2472ad9de2e1144c9e046edbf481161034c83273d20116b28c.png"
+  },
+  {
+    "series": "2",
+    "card": "20",
+    "asset": "A430829234070223386",
+    "issuance": 69,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A430829234070223386",
+    "image": "https://stampchain.io/stamps/623a93b01dff347a3b17de337490b687821556e3a93dcb2b4d94de7e1d844c3a.png"
+  },
+  {
+    "series": "2",
+    "card": "21",
+    "asset": "A447554197617154483",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A447554197617154483",
+    "image": "https://stampchain.io/stamps/56f6db9b9dd08bfbfc82f0ae94a88c5cd5c11dad40473830d3954b3c09cd7389.svg"
+  },
+  {
+    "series": "2",
+    "card": "22",
+    "asset": "A327627287948213644",
+    "issuance": 10,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A327627287948213644",
+    "image": "https://stampchain.io/stamps/33df7f246ddb506d20c5c523ab2151061bdb0a5e3e229a098274063d61cd70c8.gif"
+  },
+  {
+    "series": "2",
+    "card": "23",
+    "asset": "A5686086491068298000",
+    "issuance": 42,
+    "artist": "Simon morris",
+    "link": "https://horizon.market/explorer/assets/A5686086491068298000",
+    "image": "https://stampchain.io/stamps/9fd924d70bfe6ec074471f356fd85ba6ee20d63573416921daa4bcfd5fee2dca.jpeg"
+  },
+  {
+    "series": "2",
+    "card": "24",
+    "asset": "A11369437878122220845",
+    "issuance": 110,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A11369437878122220845",
+    "image": "https://stampchain.io/stamps/9cf34d4f8a4c0dd5f66f1beb599ec6654c189fa77a80b31056fefad320cd7712.png"
+  },
+  {
+    "series": "2",
+    "card": "25",
+    "asset": "A455758100905084633",
+    "issuance": 42,
+    "artist": "SASHA CHUDO",
+    "link": "https://horizon.market/explorer/assets/A455758100905084633",
+    "image": "https://stampchain.io/stamps/f40b184d31af94cb197e284728ba9cfc7ad391acff46d5ebc21290b07d9587c2.svg"
+  },
+  {
+    "series": "2",
+    "card": "26",
+    "asset": "A2687691388697547131",
+    "issuance": 50,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A2687691388697547131",
+    "image": "https://stampchain.io/stamps/f62e678c2ded74b187885c8d5490984c98c7b07c9cda4f1d99cfdaba0d25590f.png"
+  },
+  {
+    "series": "2",
+    "card": "27",
+    "asset": "A13372352173796346183",
+    "issuance": 91,
+    "artist": "AZ&Tepixelabs",
+    "link": "https://horizon.market/explorer/assets/A13372352173796346183",
+    "image": "https://stampchain.io/stamps/29fefd1b4a913e1c8dec36a3dbdd1c2041ffb1944271455305d827cb0adc03e9.gif"
+  },
+  {
+    "series": "2",
+    "card": "28",
+    "asset": "A8080808080808080800",
+    "issuance": 400,
+    "artist": "Regan",
+    "link": "https://horizon.market/explorer/assets/A8080808080808080800",
+    "image": "https://stampchain.io/stamps/bb2a2564e17a46ea31bdb79e797739a19857305372a96417cc149a4ce3b318f8.png"
+  },
+  {
+    "series": "2",
+    "card": "29",
+    "asset": "A9931825173520837000",
+    "issuance": 169,
+    "artist": "Majoni",
+    "link": "https://horizon.market/explorer/assets/A9931825173520837000",
+    "image": "https://stampchain.io/stamps/b9720ab5b8bb2bbc6c2b068c4493d0c1bc3fa5c1501339a1c4a72bbbd1c55f83.png"
+  },
+  {
+    "series": "2",
+    "card": "30",
+    "asset": "A16447187234205603055",
+    "issuance": 100,
+    "artist": "Blockjack",
+    "link": "https://horizon.market/explorer/assets/A16447187234205603055",
+    "image": "https://stampchain.io/stamps/d567685976248e1d1d227d8d66387feaaf5aca32e8603c2a50485f68789537c2.svg"
+  },
+  {
+    "series": "2",
+    "card": "31",
+    "asset": "A2406412234307485000",
+    "issuance": 110,
+    "artist": "KAWABANGGA",
+    "link": "https://horizon.market/explorer/assets/A2406412234307485000",
+    "image": "https://stampchain.io/stamps/53cf13c6c3d2fd337b28091668b4966fddecd9b814dc2d83c28de646e9b8fbf0.png"
+  },
+  {
+    "series": "2",
+    "card": "32",
+    "asset": "A141762779593898329",
+    "issuance": 100,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A141762779593898329",
+    "image": "https://stampchain.io/stamps/633e7130d06dd68d3a5a33374665227f955713d59bfaa6481bc99925f4f9c88f.png"
+  },
+  {
+    "series": "2",
+    "card": "33",
+    "asset": "A1777777709092016298",
+    "issuance": 21,
+    "artist": "Rarejay",
+    "link": "https://horizon.market/explorer/assets/A1777777709092016298",
+    "image": "https://stampchain.io/stamps/e1b271871236e34751ce9141a0877438b8b8f925a890c6038de43e41569ba313.svg"
+  },
+  {
+    "series": "2",
+    "card": "34",
+    "asset": "A509732004571657348",
+    "issuance": 589,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A509732004571657348",
+    "image": "https://stampchain.io/stamps/f8b06132d04dfc78dde606584e6dd2247876aed65df36de4ee7b8ae93e58d5ae.png"
+  },
+  {
+    "series": "2",
+    "card": "35",
+    "asset": "A9474649292549805341",
+    "issuance": 21,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A9474649292549805341",
+    "image": "https://stampchain.io/stamps/9bf63db3dbc97bbd30bdc224a3f735c7e51982ac6702f6404a1b004e20e0787b.png"
+  },
+  {
+    "series": "2",
+    "card": "36",
+    "asset": "A13733248663762682000",
+    "issuance": 16,
+    "artist": "Santiago Itzcoatl",
+    "link": "https://horizon.market/explorer/assets/A13733248663762682000",
+    "image": "https://stampchain.io/stamps/defef294af33885201d898598bc4d887eb6bcdc24f7a79ed63f032316f9867b5.svg"
+  },
+  {
+    "series": "2",
+    "card": "37",
+    "asset": "A2820416590959688000",
+    "issuance": 2,
+    "artist": "SHOOK",
+    "link": "https://horizon.market/explorer/assets/A2820416590959688000",
+    "image": "https://stampchain.io/stamps/d34d6539751f0b7b3885d31afb96d32e89d1ddd42fa899465842da11334124e7.gif"
+  },
+  {
+    "series": "2",
+    "card": "38",
+    "asset": "A6590370768049703000",
+    "issuance": 125,
+    "artist": "Majoni",
+    "link": "https://horizon.market/explorer/assets/A6590370768049703000",
+    "image": "https://stampchain.io/stamps/d08dcaf83e72dbdc1602017a5a07984b3fc3c4f98aa561e4369fe43e1990565e.png"
+  },
+  {
+    "series": "2",
+    "card": "39",
+    "asset": "A1138796500954482000",
+    "issuance": 21,
+    "artist": "Tepixelabs",
+    "link": "https://horizon.market/explorer/assets/A1138796500954482000",
+    "image": "https://stampchain.io/stamps/35d5c12d3dfa7544315ccc54a4d1a8c4e17517d5348325bdfa3d46d240f4bc77.gif"
+  },
+  {
+    "series": "2",
+    "card": "40",
+    "asset": "A13060585920379408000",
+    "issuance": 16,
+    "artist": "Santiago Itzcoatl",
+    "link": "https://horizon.market/explorer/assets/A13060585920379408000",
+    "image": "https://stampchain.io/stamps/3aa63e43ef0a80f330275a01e2ca235b1ac3bd0397c8f4b2a86927818cabd1d2.svg"
+  },
+  {
+    "series": "2",
+    "card": "41",
+    "asset": "A16910771143072006000",
+    "issuance": 69,
+    "artist": "SHOOK",
+    "link": "https://horizon.market/explorer/assets/A16910771143072006000",
+    "image": "https://stampchain.io/stamps/e77ed8048c2e4b69d592033e0900f705d723d13bae0075fa49161196762f3e0c.gif"
+  },
+  {
+    "series": "2",
+    "card": "42",
+    "asset": "A3697714088460257867",
+    "issuance": 100,
+    "artist": "Plycka99%",
+    "link": "https://horizon.market/explorer/assets/A3697714088460257867",
+    "image": "https://stampchain.io/stamps/452e6b303c01bcf62d9b5bb56bbd7c8e72425523cc44370face202a202a9d307.png"
+  },
+  {
+    "series": "3",
+    "card": "1",
+    "asset": "A992117022352334628",
+    "issuance": 35,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A992117022352334628",
+    "image": "https://stampchain.io/stamps/5c2fea124f6b462e8fd2a784993ad696b85adee3b9b61f90fdcb9137a63876f1.png"
+  },
+  {
+    "series": "3",
+    "card": "2",
+    "asset": "A652116979634469189",
+    "issuance": 100,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A652116979634469189",
+    "image": "https://stampchain.io/stamps/7f094e5f6a0118ac35ae59cf68f9d5b94b73e0f152108245e137506506719452.svg"
+  },
+  {
+    "series": "3",
+    "card": "3",
+    "asset": "A251910104626044382",
+    "issuance": 42,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A251910104626044382",
+    "image": "https://stampchain.io/stamps/5f738feb17dcf9d38116db8b538fd40676b5b802377a3756aba37ebe1a2db49e.gif"
+  },
+  {
+    "series": "3",
+    "card": "4",
+    "asset": "A488490307817709832",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A488490307817709832",
+    "image": "https://stampchain.io/stamps/a97febb339930b525af959a25abe0061acb707818fdc9d41f56b0a480a3be8d7.svg"
+  },
+  {
+    "series": "3",
+    "card": "5",
+    "asset": "A4187130250059315000",
+    "issuance": 69,
+    "artist": "Logik",
+    "link": "https://horizon.market/explorer/assets/A4187130250059315000",
+    "image": "https://stampchain.io/stamps/121154b128b92111ea93c28d748a328265125b7b20cac8774be61842eb85da19.svg"
+  },
+  {
+    "series": "3",
+    "card": "6",
+    "asset": "A1258362551061418145",
+    "issuance": 24,
+    "artist": "Rarejay",
+    "link": "https://horizon.market/explorer/assets/A1258362551061418145",
+    "image": "https://stampchain.io/stamps/9ba81bf1d440ac5cd5ab5c966f1ae7617cd331906141b8fb928c825f30aca2bb.svg"
+  },
+  {
+    "series": "3",
+    "card": "7",
+    "asset": "A925003729507683173",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A925003729507683173",
+    "image": "https://stampchain.io/stamps/5b3956ecd16e708ceaf99a6664c987f54ab585b33f5524f2cb1b17bce897211e.svg"
+  },
+  {
+    "series": "3",
+    "card": "8",
+    "asset": "A9411130113700000000",
+    "issuance": 21,
+    "artist": "Regan",
+    "link": "https://horizon.market/explorer/assets/A9411130113700000000",
+    "image": "https://stampchain.io/stamps/8b44d677fb6377a02a1338231c37d6e196b2c379028c8c0456406093ddd07c6e.png"
+  },
+  {
+    "series": "3",
+    "card": "9",
+    "asset": "A1752969248045591777",
+    "issuance": 100,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A1752969248045591777",
+    "image": "https://stampchain.io/stamps/99560e284443a43c9679511603ce69bd2cd91647efa56dea1289e93b5b7a71a8.svg"
+  },
+  {
+    "series": "3",
+    "card": "10",
+    "asset": "A890410985848982888",
+    "issuance": 1,
+    "artist": "dyle",
+    "link": "https://horizon.market/explorer/assets/A890410985848982888",
+    "image": "https://stampchain.io/stamps/c4d3f7c23bf50a391608fdcb3d94e3e7dda60f8ce75e61b659398b74ef708406.png"
+  },
+  {
+    "series": "3",
+    "card": "11",
+    "asset": "A1054492647742732761",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A1054492647742732761",
+    "image": "https://stampchain.io/stamps/be622ad2b49934eb1ed2e5504a25d92438ef33b96afb4698e2ed8f8b2d88f01f.svg"
+  },
+  {
+    "series": "3",
+    "card": "12",
+    "asset": "A1728146650861699847",
+    "issuance": 21,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A1728146650861699847",
+    "image": "https://stampchain.io/stamps/68fa179673a381c7ad7c9a85db7b66d91f7078601cff43bb6922f2d2b7eb7dee.png"
+  },
+  {
+    "series": "3",
+    "card": "13",
+    "asset": "A232696094966107157",
+    "issuance": 69,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A232696094966107157",
+    "image": "https://stampchain.io/stamps/4ae80ff10251c594f3852391a3077f4be2fd222e7076dca8013134807f91023e.html"
+  },
+  {
+    "series": "3",
+    "card": "14",
+    "asset": "A1923000019970002024",
+    "issuance": 69,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A1923000019970002024",
+    "image": "https://stampchain.io/stamps/f96e060c2e51272b9c05743726d5c7fddeda61b8b095d7df8ba8e34ff90ef572.png"
+  },
+  {
+    "series": "3",
+    "card": "15",
+    "asset": "A7552340334203099709",
+    "issuance": 69,
+    "artist": "NIIIX",
+    "link": "https://horizon.market/explorer/assets/A7552340334203099709",
+    "image": "https://stampchain.io/stamps/389c7227e26d6ed459c2a79ccf69116c0b66b541e38bf16f50b1b2ae246a59d8.png"
+  },
+  {
+    "series": "3",
+    "card": "16",
+    "asset": "A999666696969999666",
+    "issuance": 67,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A999666696969999666",
+    "image": "https://stampchain.io/stamps/48949ad3c7dfc69363f44aa57f779ce3e02a0feb69c4a625f985ba6bac3055c2.png"
+  },
+  {
+    "series": "3",
+    "card": "17",
+    "asset": "A2121000000050000111",
+    "issuance": 69,
+    "artist": "babalicious",
+    "link": "https://horizon.market/explorer/assets/A2121000000050000111",
+    "image": "https://stampchain.io/stamps/5eab00e65ce21735eeb01aa0df39f6c9205e5084ff608ac447e6b5e44220e5a7.html"
+  },
+  {
+    "series": "3",
+    "card": "18",
+    "asset": "A797545332032172714",
+    "issuance": 69,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A797545332032172714",
+    "image": "https://stampchain.io/stamps/ed582d34377d4f0245bf0e4380e8b49365136b932f75912fb986185398a94194.gif"
+  },
+  {
+    "series": "3",
+    "card": "19",
+    "asset": "A12122625141941088000",
+    "issuance": 277,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A12122625141941088000",
+    "image": "https://stampchain.io/stamps/1cc71515f5bbd7abb26cba69cd34700bd8996b267abb78fdda4e1d43d6410d21.svg"
+  },
+  {
+    "series": "3",
+    "card": "20",
+    "asset": "A335197243919566932",
+    "issuance": 21,
+    "artist": "Tony NL",
+    "link": "https://horizon.market/explorer/assets/A335197243919566932",
+    "image": "https://stampchain.io/stamps/3cb33f20b8ddb0f612cdf17e9d7421643d62e81c1ee424c2101340806bc8ec6d.png"
+  },
+  {
+    "series": "3",
+    "card": "21",
+    "asset": "A1477596504227791600",
+    "issuance": 64,
+    "artist": "Mysk",
+    "link": "https://horizon.market/explorer/assets/A1477596504227791600",
+    "image": "https://stampchain.io/stamps/826e8e389d25c26e10bf9883de842f420ab2839d7dc9414e6c6092af60d76f6d.png"
+  },
+  {
+    "series": "3",
+    "card": "22",
+    "asset": "A15781411009218513000",
+    "issuance": 64,
+    "artist": "Santiago",
+    "link": "https://horizon.market/explorer/assets/A15781411009218513000",
+    "image": "https://stampchain.io/stamps/6fceb4e5140dd8666486211ac4986a83981764be21587713789dae71594efe28.png"
+  },
+  {
+    "series": "3",
+    "card": "23",
+    "asset": "A551118383892582793",
+    "issuance": 69,
+    "artist": "KAWABANGGA",
+    "link": "https://horizon.market/explorer/assets/A551118383892582793",
+    "image": "https://stampchain.io/stamps/b3e929498c2836fe7108c64109dee86cb78ebd40e895a32dec4c0b3137698617.png"
+  },
+  {
+    "series": "3",
+    "card": "24",
+    "asset": "A393551922258780334",
+    "issuance": 21,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A393551922258780334",
+    "image": "https://stampchain.io/stamps/682b430ffc669b36be5d469f8a45b8e5eb1f63bcb22adc86e685fe313fbab554.png"
+  },
+  {
+    "series": "3",
+    "card": "25",
+    "asset": "A7777777404777777777",
+    "issuance": 99,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A7777777404777777777",
+    "image": "https://stampchain.io/stamps/003ab8fb17853479051809fabb1dbd0c2724469c64a25b6601c0d55c6a262434.png"
+  },
+  {
+    "series": "3",
+    "card": "26",
+    "asset": "A10870334694070794000",
+    "issuance": 100,
+    "artist": "Harvey Vogelmann",
+    "link": "https://horizon.market/explorer/assets/A10870334694070794000",
+    "image": "https://stampchain.io/stamps/3f1d8cb59262937d7cbe8866a0efc7d449f458b343f3d1d67e67f9225dd5b596.svg"
+  },
+  {
+    "series": "3",
+    "card": "27",
+    "asset": "A6665819026805296738",
+    "issuance": 100,
+    "artist": "NimzoBit",
+    "link": "https://horizon.market/explorer/assets/A6665819026805296738",
+    "image": "https://stampchain.io/stamps/ecb92f2a732eaeaac5b3a240e02e6db932ac28e19b09ebcf1d71219589110f75.png"
+  },
+  {
+    "series": "3",
+    "card": "28",
+    "asset": "A582541865338232032",
+    "issuance": 69,
+    "artist": "Sasha",
+    "link": "https://horizon.market/explorer/assets/A582541865338232032",
+    "image": "https://stampchain.io/stamps/217822b84a743306fc4582994cf3dbedde5343f8921087c4ecea5ba8273f32cf.svg"
+  },
+  {
+    "series": "3",
+    "card": "29",
+    "asset": "A995745323260604787",
+    "issuance": 69,
+    "artist": "SASHA CHUDO",
+    "link": "https://horizon.market/explorer/assets/A995745323260604787",
+    "image": "https://stampchain.io/stamps/1c54a29068760d353aac7de396b4b8d398802e2824418175c207ae62bdcd9b10.svg"
+  },
+  {
+    "series": "3",
+    "card": "30",
+    "asset": "A1449397849937177992",
+    "issuance": 33,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A1449397849937177992",
+    "image": "https://stampchain.io/stamps/6db0130f4f56c7d6818aeb4b379c191d20babef1ae99047d4e696bbeaceaf3ec.png"
+  },
+  {
+    "series": "3",
+    "card": "31",
+    "asset": "A157430337341840533",
+    "issuance": 7,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A157430337341840533",
+    "image": "https://stampchain.io/stamps/09e5077115dce335fd0d14895935df342ca90a2a8adb79a786cbcd56397fceaf.png"
+  },
+  {
+    "series": "3",
+    "card": "32",
+    "asset": "A12305580791751342200",
+    "issuance": 30,
+    "artist": "CMYK",
+    "link": "https://horizon.market/explorer/assets/A12305580791751342200",
+    "image": "https://stampchain.io/stamps/f43279f71ec3baa1f851953944b97067dcc666a0c4f96807e0a678d5f061ae05.gif"
+  },
+  {
+    "series": "3",
+    "card": "33",
+    "asset": "A451621400486481863",
+    "issuance": 298,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A451621400486481863",
+    "image": "https://stampchain.io/stamps/243daffb486735ea1b80f8d42e0c9cb5563f63c1aa18b1f1f0b727c00db83d7c.png"
+  },
+  {
+    "series": "3",
+    "card": "34",
+    "asset": "A587885307272530094",
+    "issuance": 25,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A587885307272530094",
+    "image": "https://stampchain.io/stamps/10d8b016a42fd7356e09c951160604c86450093e22a927195c5cf403666dbf95.gif"
+  },
+  {
+    "series": "3",
+    "card": "35",
+    "asset": "A12307085950833963157",
+    "issuance": 15,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A12307085950833963157",
+    "image": "https://stampchain.io/stamps/538833c6d35ad9b36f073578d8659f31bbc22154d1309695deea7342764878e5.png"
+  },
+  {
+    "series": "3",
+    "card": "36",
+    "asset": "A13937090661341495000",
+    "issuance": 44,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A13937090661341495000",
+    "image": "https://stampchain.io/stamps/3730e55e99d2239f93adb695141ce6db360e0e8c8c4f893f3743a30671adef1e.webp"
+  },
+  {
+    "series": "3",
+    "card": "37",
+    "asset": "A749646770520560024",
+    "issuance": 13,
+    "artist": "Rarejay",
+    "link": "https://horizon.market/explorer/assets/A749646770520560024",
+    "image": "https://stampchain.io/stamps/83c53eeac4831b059efb19d606a638384d979c897fb34b7e263a12e65492c000.png"
+  },
+  {
+    "series": "3",
+    "card": "38",
+    "asset": "A7839327918455651956",
+    "issuance": 88,
+    "artist": "Nikolaus",
+    "link": "https://horizon.market/explorer/assets/A7839327918455651956",
+    "image": "https://stampchain.io/stamps/113de4d3be52c96410b477ae275cc7ef20d247db145468435e4c825cbb2d98f7.png"
+  },
+  {
+    "series": "3",
+    "card": "39",
+    "asset": "A1463910612295399774",
+    "issuance": 100,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A1463910612295399774",
+    "image": "https://stampchain.io/stamps/6fbd1a87f4c8a2463b225bb9251832b5a84f6ce1cfbe714c16e98c12428b560d.png"
+  },
+  {
+    "series": "3",
+    "card": "40",
+    "asset": "A2121000000030000111",
+    "issuance": 69,
+    "artist": "babalicious",
+    "link": "https://horizon.market/explorer/assets/A2121000000030000111",
+    "image": "https://stampchain.io/stamps/2cfdc5d737065aa5c5c9febde8a803b1e6ee44e47de0f2788f9dfc4d40f7ed71.html"
+  },
+  {
+    "series": "3",
+    "card": "41",
+    "asset": "A6191790181671182855",
+    "issuance": 36,
+    "artist": "Mayari_Mun",
+    "link": "https://horizon.market/explorer/assets/A6191790181671182855",
+    "image": "https://stampchain.io/stamps/ded403adeaef68b035d4f7e4d877be287537bd307c812bf35bfedcd9c6ded589.png"
+  },
+  {
+    "series": "3",
+    "card": "42",
+    "asset": "A1110001110000000111",
+    "issuance": 69,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A1110001110000000111",
+    "image": "https://stampchain.io/stamps/b879fce8ce42b84cf1fcf0135ab1c896e622d916a09b45cdbac64f404c51bd0b.png"
+  },
+  {
+    "series": "4",
+    "card": "1",
+    "asset": "A14962368961442238000",
+    "issuance": 69,
+    "artist": "Logik",
+    "link": "https://horizon.market/explorer/assets/A14962368961442238000",
+    "image": "https://stampchain.io/stamps/d3a4c31368687c9612270a07cd2088d9260fbb738acbc68fb048076e027f452e.svg"
+  },
+  {
+    "series": "4",
+    "card": "2",
+    "asset": "A1041869680105190242",
+    "issuance": 35,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A1041869680105190242",
+    "image": "https://stampchain.io/stamps/f2d4925cbb204b3add04b8e9165145dd7d4f4efbb2204d54b217cca3ba56b796.png"
+  },
+  {
+    "series": "4",
+    "card": "3",
+    "asset": "A1714800323048321163",
+    "issuance": 100,
+    "artist": "RareStamp",
+    "link": "https://horizon.market/explorer/assets/A1714800323048321163",
+    "image": "https://stampchain.io/stamps/841042e0d925d62c187f49390775c4b0f3bfcf02acffaa632b05a4059e15ee57.svg"
+  },
+  {
+    "series": "4",
+    "card": "4",
+    "asset": "A12354135474386500298",
+    "issuance": 100,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A12354135474386500298",
+    "image": "https://stampchain.io/stamps/0765b07f6f589a5e22d42681c2485ea2f89e5a61073ff4030c1ed44dd47a27f8.svg"
+  },
+  {
+    "series": "4",
+    "card": "5",
+    "asset": "A312266322397315233",
+    "issuance": 21,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A312266322397315233",
+    "image": "https://stampchain.io/stamps/4abb5e4f4b1cf91297de4d1e90d53b5c2ee3ec36650d16514f54d8d201f67a91.jpeg"
+  },
+  {
+    "series": "4",
+    "card": "6",
+    "asset": "A1255156322223490820",
+    "issuance": 42,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A1255156322223490820",
+    "image": "https://stampchain.io/stamps/bce265fa2e9ac8cc4e0f4bfcf40ddc9952ca59ed032d1e58cb890c83c097c729.gif"
+  },
+  {
+    "series": "4",
+    "card": "7",
+    "asset": "A891659088898985848",
+    "issuance": 1,
+    "artist": "Dyle",
+    "link": "https://horizon.market/explorer/assets/A891659088898985848",
+    "image": "https://stampchain.io/stamps/14858ab5bc56689a8c39ea4462d096dfa03b23bf33496bd5cc3467f77faeb486.html"
+  },
+  {
+    "series": "4",
+    "card": "8",
+    "asset": "A6449498850632000461",
+    "issuance": 96,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A6449498850632000461",
+    "image": "https://stampchain.io/stamps/804ab0ed23f4f1c411fff57ded7313abc0a2e2c851c9dae89938c632bac171f8.svg"
+  },
+  {
+    "series": "4",
+    "card": "9",
+    "asset": "A1204092088279684083",
+    "issuance": 33,
+    "artist": "Sasha Chudo",
+    "link": "https://horizon.market/explorer/assets/A1204092088279684083",
+    "image": "https://stampchain.io/stamps/9910643c85cdfd06459231c3361e36327f74bcde40573d2fdd841b35d320bb6a.svg"
+  },
+  {
+    "series": "4",
+    "card": "10",
+    "asset": "A1564758492698462089",
+    "issuance": 42,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A1564758492698462089",
+    "image": "https://stampchain.io/stamps/9b240eb2f308b13683903bc08271ac01b037e0e1bb3fa1a3108120159d29aaf4.gif"
+  },
+  {
+    "series": "4",
+    "card": "11",
+    "asset": "A175768175352734845",
+    "issuance": 100,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A175768175352734845",
+    "image": "https://stampchain.io/stamps/83a37419ffb0fcd01a50be421ea5c73f1e5c36e5ff54c1909a9744ec70a933a4.png"
+  },
+  {
+    "series": "4",
+    "card": "12",
+    "asset": "A17187826135508564000",
+    "issuance": 100,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A17187826135508564000",
+    "image": "https://stampchain.io/stamps/3e1db6363f068058035c6451c9c49965b94435c292dd08a641886e2c41081cbb.svg"
+  },
+  {
+    "series": "4",
+    "card": "13",
+    "asset": "A1214836277016351800",
+    "issuance": 100,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A1214836277016351800",
+    "image": "https://stampchain.io/stamps/acf4e801fde813b7be4992cca2d159f5203164ef948e985e890ad5cd02662d48.png"
+  },
+  {
+    "series": "4",
+    "card": "14",
+    "asset": "A586742618937403973",
+    "issuance": 21,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A586742618937403973",
+    "image": "https://stampchain.io/stamps/ff0ea92393322c6908258b7ab63e6707294388beb9150f4904602903858ccd48.png"
+  },
+  {
+    "series": "4",
+    "card": "15",
+    "asset": "A8078188082000998834",
+    "issuance": 100,
+    "artist": "RareStamp",
+    "link": "https://horizon.market/explorer/assets/A8078188082000998834",
+    "image": "https://stampchain.io/stamps/af50c520451364aa0cf4335d85509d817c2d93eb9ed3a65122af4592e1060859.svg"
+  },
+  {
+    "series": "4",
+    "card": "16",
+    "asset": "A1817302908167233539",
+    "issuance": 42,
+    "artist": "Sasha Chudo",
+    "link": "https://horizon.market/explorer/assets/A1817302908167233539",
+    "image": "https://stampchain.io/stamps/7720c71dce9ea4b60c0aaecf8e471ee6455a1d08c5936beb121615f6a8ccda13.svg"
+  },
+  {
+    "series": "4",
+    "card": "17",
+    "asset": "A823215345911247900",
+    "issuance": 100,
+    "artist": "Stampscream",
+    "link": "https://horizon.market/explorer/assets/A823215345911247900",
+    "image": "https://stampchain.io/stamps/e220c6ebbbededf3bec2596b5c19ca91212e4c58f57a8c102f3e627bd63972d8.png"
+  },
+  {
+    "series": "4",
+    "card": "18",
+    "asset": "A2121000000030000333",
+    "issuance": 1,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A2121000000030000333",
+    "image": "https://stampchain.io/stamps/46a217558340fbb0156af6e3c3785213c6d4e341cca4da5c9aea6b833692e883.html"
+  },
+  {
+    "series": "4",
+    "card": "19",
+    "asset": "A454928595107763512",
+    "issuance": 100,
+    "artist": "Babalicious",
+    "link": "https://horizon.market/explorer/assets/A454928595107763512",
+    "image": "https://stampchain.io/stamps/6fb52502bc4ae8bf9f57f07c54f2a661138743806a27f22e703dfbb12439e819.png"
+  },
+  {
+    "series": "4",
+    "card": "20",
+    "asset": "A15229999881824780000",
+    "issuance": 100,
+    "artist": "Kawabangga",
+    "link": "https://horizon.market/explorer/assets/A15229999881824780000",
+    "image": "https://stampchain.io/stamps/2d6a7d93aed17bf852e8765cc659ed04ddd2a8dda883474be89a1863b9431166.webp"
+  },
+  {
+    "series": "4",
+    "card": "21",
+    "asset": "A6345098950056472000",
+    "issuance": 27,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A6345098950056472000",
+    "image": "https://stampchain.io/stamps/bfefe9b87c1ab8ce69a7df808aca99feb4b86c959cf1fde0fc03dbeaf25c405c.html"
+  },
+  {
+    "series": "4",
+    "card": "22",
+    "asset": "A9032887827425038000",
+    "issuance": 169,
+    "artist": "Fleper",
+    "link": "https://horizon.market/explorer/assets/A9032887827425038000",
+    "image": "https://stampchain.io/stamps/d86dd6ea4625c61efac0df0609a742a883b0819f612bb25f8bcfac5447e09b45.png"
+  },
+  {
+    "series": "4",
+    "card": "23",
+    "asset": "A331659145646903147",
+    "issuance": 100,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A331659145646903147",
+    "image": "https://stampchain.io/stamps/6bdbd630ff528e9e97584c6621d674527da2670e05268e474c4c6982ad84eedf.svg"
+  },
+  {
+    "series": "4",
+    "card": "24",
+    "asset": "A14571539890130820786",
+    "issuance": 100,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A14571539890130820786",
+    "image": "https://stampchain.io/stamps/6751ac93d817f8fdfa16c354a0ff6e870c00c7eeb4b51c684fb62a378f145ed8.gif"
+  },
+  {
+    "series": "4",
+    "card": "25",
+    "asset": "A2121000000040000055",
+    "issuance": 69,
+    "artist": "Tepixelabs",
+    "link": "https://horizon.market/explorer/assets/A2121000000040000055",
+    "image": "https://stampchain.io/stamps/7d99e1b699fdb43887d5e4543723ecf7b0f59b45ec8b25b95ac45463d03ced0a.html"
+  },
+  {
+    "series": "4",
+    "card": "26",
+    "asset": "A12317392125702074044",
+    "issuance": 21,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A12317392125702074044",
+    "image": "https://stampchain.io/stamps/b03fae1aa9d653aeff91455f01dd8b911d1b684cb32bfd8264ae29e194fb8ced.png"
+  },
+  {
+    "series": "4",
+    "card": "27",
+    "asset": "A5116058818527302000",
+    "issuance": 69,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A5116058818527302000",
+    "image": "https://stampchain.io/stamps/f6f2b23f78c92937ddfbfee943b4931af7c20ea9ca8fe51b9a8572734f7926ac.png"
+  },
+  {
+    "series": "4",
+    "card": "28",
+    "asset": "A4698643435765368000",
+    "issuance": 1,
+    "artist": "Moxarra",
+    "link": "https://horizon.market/explorer/assets/A4698643435765368000",
+    "image": "https://stampchain.io/stamps/f24d720dab38621abc6b9fc0babd51ce93faa378a11c6c17deb8c91cfb7c48fd.gif"
+  },
+  {
+    "series": "4",
+    "card": "29",
+    "asset": "A2798933824031637705",
+    "issuance": 369,
+    "artist": "Fleper",
+    "link": "https://horizon.market/explorer/assets/A2798933824031637705",
+    "image": "https://stampchain.io/stamps/628bfb8b356ac5a9a62e63aef1b1583d8ae98735d01f0112977ab951e5fa5230.png"
+  },
+  {
+    "series": "4",
+    "card": "30",
+    "asset": "A802161279513549503",
+    "issuance": 69,
+    "artist": "Kawabangga",
+    "link": "https://horizon.market/explorer/assets/A802161279513549503",
+    "image": "https://stampchain.io/stamps/003ab57db1f14a289cf53d082541bde91d5cd4dd6070c37391e870600ed5c63f.webp"
+  },
+  {
+    "series": "4",
+    "card": "31",
+    "asset": "A12304135567269118796",
+    "issuance": 35,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A12304135567269118796",
+    "image": "https://stampchain.io/stamps/ed04003e869cb10792baff8b56ecaa3c134354e35c92a37954d88590667119d7.svg"
+  },
+  {
+    "series": "4",
+    "card": "32",
+    "asset": "A1036288156633861162",
+    "issuance": 7,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A1036288156633861162",
+    "image": "https://stampchain.io/stamps/2052e5f0758d57d6c68c5e20d7c31f4cecb674a02910a981585d8e0fcf3207d3.png"
+  },
+  {
+    "series": "4",
+    "card": "33",
+    "asset": "A436424920558347614",
+    "issuance": 3,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A436424920558347614",
+    "image": "https://stampchain.io/stamps/c35226f40a53109a952d49f4180b20d86f3b2596e3eca15c8b7d3e6848676210.gif"
+  },
+  {
+    "series": "4",
+    "card": "34",
+    "asset": "A1567133269386598488",
+    "issuance": 10,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A1567133269386598488",
+    "image": "https://stampchain.io/stamps/c5f432950dfc2b51955dbe18a214b764f931f348d4d58d983b5a7aa9354a4b67.gif"
+  },
+  {
+    "series": "4",
+    "card": "35",
+    "asset": "A809120882783288388",
+    "issuance": 1,
+    "artist": "Dyle",
+    "link": "https://horizon.market/explorer/assets/A809120882783288388",
+    "image": "https://stampchain.io/stamps/54e4f65d5acc778c5e44a86227e62cdd50c4086700170b3e48f358a6fc1885fa.html"
+  },
+  {
+    "series": "4",
+    "card": "36",
+    "asset": "A1231000806672890362",
+    "issuance": 21,
+    "artist": "Tony NL",
+    "link": "https://horizon.market/explorer/assets/A1231000806672890362",
+    "image": "https://stampchain.io/stamps/75ea7fbed518a8c9fbcf515b947c68445230bbdb78d7b1edc09ae6364bd8c15a.png"
+  },
+  {
+    "series": "4",
+    "card": "37",
+    "asset": "A7508585669474573999",
+    "issuance": 21,
+    "artist": "Tony NL",
+    "link": "https://horizon.market/explorer/assets/A7508585669474573999",
+    "image": "https://stampchain.io/stamps/96065c9d14d305968f2a16673105ea32b44fef0e3009d2407d77f2a24d86203f.png"
+  },
+  {
+    "series": "4",
+    "card": "38",
+    "asset": "A12078481015105802000",
+    "issuance": 42,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A12078481015105802000",
+    "image": "https://stampchain.io/stamps/6f5eeb4d18999d24f6f75a807ad073f3f1c9091e92232a61417a4dc35ce5e3e1.png"
+  },
+  {
+    "series": "4",
+    "card": "39",
+    "asset": "A190336635771507085",
+    "issuance": 27,
+    "artist": "Monk Q",
+    "link": "https://horizon.market/explorer/assets/A190336635771507085",
+    "image": "https://stampchain.io/stamps/93042a200051b8ac7b5435895aa42b44196f75b2e16e9e070007a2b8b31bd39b.png"
+  },
+  {
+    "series": "4",
+    "card": "40",
+    "asset": "A1001876125006686857",
+    "issuance": 69,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A1001876125006686857",
+    "image": "https://stampchain.io/stamps/38650725aee8e7ffb47bff3076c023787d7ca8c465dd138cd08460bc095b1db6.png"
+  },
+  {
+    "series": "4",
+    "card": "41",
+    "asset": "A12318502759562489558",
+    "issuance": 35,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A12318502759562489558",
+    "image": "https://stampchain.io/stamps/a19d872c5cb7cbee55d65db5998f07a61dfb69ea628febb7b297de2fab483b4a.gif"
+  },
+  {
+    "series": "4",
+    "card": "42",
+    "asset": "A1333367053311347266",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A1333367053311347266",
+    "image": "https://stampchain.io/stamps/954acc30e25d3e97a161fe96f9eb2c628dcb4874e1bf10824e7d75416bfedfa4.png"
+  },
+  {
+    "series": "5",
+    "card": "1",
+    "asset": "A1519022588682085801",
+    "issuance": 35,
+    "artist": "LuAmbriz",
+    "link": "https://horizon.market/explorer/assets/A1519022588682085801",
+    "image": "https://stampchain.io/stamps/4f305dc73f865c9da44c2a5ebb35a2050af6db4b653d9e18732f242c1823d5d3.png"
+  },
+  {
+    "series": "5",
+    "card": "2",
+    "asset": "A1653646838615467462",
+    "issuance": 69,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A1653646838615467462",
+    "image": "https://stampchain.io/stamps/f29571878b658c3a885c6a36becf91888c8b32651979395004cbdfa66d118b21.png"
+  },
+  {
+    "series": "5",
+    "card": "3",
+    "asset": "A5467260475420272160",
+    "issuance": 21,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A5467260475420272160",
+    "image": "https://stampchain.io/stamps/55f8b7a158f0e4330e7a1db287c3495c1ee6c561262e2e8f490b8ae4c6d9fbe5.gif"
+  },
+  {
+    "series": "5",
+    "card": "4",
+    "asset": "A5455544554554445454",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A5455544554554445454",
+    "image": "https://stampchain.io/stamps/2b4febe83f5c56d48f523887e50f76065a14f4d4f4f8ea41382b489467376bd5.png"
+  },
+  {
+    "series": "5",
+    "card": "5",
+    "asset": "A8146291340100461000",
+    "issuance": 27,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A8146291340100461000",
+    "image": "https://stampchain.io/stamps/fc50555d3dbf6488dd2845c850136855c82136391106ddf7bf3279d87c206afe.png"
+  },
+  {
+    "series": "5",
+    "card": "6",
+    "asset": "A1236371008991595674",
+    "issuance": 69,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A1236371008991595674",
+    "image": "https://stampchain.io/stamps/9fcdda7ac6cc6e766ed82b8519294f1c8ec4fd7584d1d905a2d1ca72459c503a.svg"
+  },
+  {
+    "series": "5",
+    "card": "7",
+    "asset": "A8224440913037959138",
+    "issuance": 100,
+    "artist": "HNFT Pepe",
+    "link": "https://horizon.market/explorer/assets/A8224440913037959138",
+    "image": "https://stampchain.io/stamps/c340d47f7bde197b134bf3a05feda851f35874ed29af95a443e5777e10ace378.svg"
+  },
+  {
+    "series": "5",
+    "card": "8",
+    "asset": "A618504458337002594",
+    "issuance": 42,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A618504458337002594",
+    "image": "https://stampchain.io/stamps/c968857f55766c934df1f9b816bfb1c57ec6cf141d415dbbc4821d151269508c.gif"
+  },
+  {
+    "series": "5",
+    "card": "9",
+    "asset": "A624270420531882157",
+    "issuance": 21,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A624270420531882157",
+    "image": "https://stampchain.io/stamps/1ee8cde705a40919f32017e742f8e7edcdfd2bcc4f6c466bb02ccf0e79cd97c6.png"
+  },
+  {
+    "series": "5",
+    "card": "10",
+    "asset": "A491155347275460102",
+    "issuance": 100,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A491155347275460102",
+    "image": "https://stampchain.io/stamps/ed9a15448150c76534b3870314cb61107296054054e2d1da163f9544198cc4a1.svg"
+  },
+  {
+    "series": "5",
+    "card": "11",
+    "asset": "A499152599169814887",
+    "issuance": 42,
+    "artist": "Jamex",
+    "link": "https://horizon.market/explorer/assets/A499152599169814887",
+    "image": "https://stampchain.io/stamps/ac805c836d4ada6e192dbdabfe76e19776cdf9fd6aa742483bf7ea9f8dec3955.gif"
+  },
+  {
+    "series": "5",
+    "card": "12",
+    "asset": "A811929347550911519",
+    "issuance": 69,
+    "artist": "Kawabangga",
+    "link": "https://horizon.market/explorer/assets/A811929347550911519",
+    "image": "https://stampchain.io/stamps/a75b3e3dbe50a6908b9cd3bf0e447e62a4c6f7efe5e63125ec91b897e0c949ca.png"
+  },
+  {
+    "series": "5",
+    "card": "13",
+    "asset": "A1350331380742150189",
+    "issuance": 21,
+    "artist": "Lu Ambriz",
+    "link": "https://horizon.market/explorer/assets/A1350331380742150189",
+    "image": "https://stampchain.io/stamps/11bb03d12be9cce7b64ae11b2ac4c9caecc10eaa5d7a87e4a61c1466b59611d5.png"
+  },
+  {
+    "series": "5",
+    "card": "14",
+    "asset": "A1658502707259193937",
+    "issuance": 69,
+    "artist": "Sasha Chudo",
+    "link": "https://horizon.market/explorer/assets/A1658502707259193937",
+    "image": "https://stampchain.io/stamps/e819d89de8463af5cded74bd8b43b2068d206f72960e4f87ea4cee160adf607c.svg"
+  },
+  {
+    "series": "5",
+    "card": "15",
+    "asset": "A1240021305257350630",
+    "issuance": 1850,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A1240021305257350630",
+    "image": "https://stampchain.io/stamps/deabee766a1d244eef9a4473af8336a5b922beaddda703a736a70cee94e7393b.png"
+  },
+  {
+    "series": "5",
+    "card": "16",
+    "asset": "A999696969696999669",
+    "issuance": 56,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A999696969696999669",
+    "image": "https://stampchain.io/stamps/bed5871f74170de1b5209f23cd09df9ad507c192df26198ee61a29dc3f87e915.png"
+  },
+  {
+    "series": "5",
+    "card": "17",
+    "asset": "A161519201311215145",
+    "issuance": 1,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A161519201311215145",
+    "image": "https://stampchain.io/stamps/e289d0e84ae647224a71316b45062e8ad54f791e023d9b660535914d6fb4755d.png"
+  },
+  {
+    "series": "5",
+    "card": "18",
+    "asset": "A6985722027007120469",
+    "issuance": 100,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A6985722027007120469",
+    "image": "https://stampchain.io/stamps/fc08a5fdd80c257f995689eaeeae4891bd72bc334d89acee2aab3074b9432d28.png"
+  },
+  {
+    "series": "5",
+    "card": "19",
+    "asset": "A8861441210142680000",
+    "issuance": 177,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A8861441210142680000",
+    "image": "https://stampchain.io/stamps/f06ff8df44b92231b2f8d16a3717ffb1e55506d1604bfd16f9401a24aa4ec3dd.png"
+  },
+  {
+    "series": "5",
+    "card": "20",
+    "asset": "A1111685225107137619",
+    "issuance": 69,
+    "artist": "Sasha Chudo",
+    "link": "https://horizon.market/explorer/assets/A1111685225107137619",
+    "image": "https://stampchain.io/stamps/792fa9aa30d0f3da1b0a6029d095e7af035c3e37e26948fd3a6555776fc61af6.svg"
+  },
+  {
+    "series": "5",
+    "card": "21",
+    "asset": "A1128804200825892863",
+    "issuance": 21,
+    "artist": "TonyNL",
+    "link": "https://horizon.market/explorer/assets/A1128804200825892863",
+    "image": "https://stampchain.io/stamps/b1fa90e1b00e517cd5d8878705ae48b68c1f2ccc7cfba83c8155becb9705610a.png"
+  },
+  {
+    "series": "5",
+    "card": "22",
+    "asset": "A1253203040350607032",
+    "issuance": 21,
+    "artist": "TonyNL",
+    "link": "https://horizon.market/explorer/assets/A1253203040350607032",
+    "image": "https://stampchain.io/stamps/62234942955bd70125f0fd9e8f6e956e89673571eec0ceb4ede98067e685d9ff.svg"
+  },
+  {
+    "series": "5",
+    "card": "23",
+    "asset": "A12357359390715532714",
+    "issuance": 300,
+    "artist": "AZ",
+    "link": "https://horizon.market/explorer/assets/A12357359390715532714",
+    "image": "https://stampchain.io/stamps/42d6bcb3aef70b59eb48b3a3e5b4800f9bf835d8cde24fdc2d77c4a51b3abacb.png"
+  },
+  {
+    "series": "5",
+    "card": "24",
+    "asset": "A8123787290329574000",
+    "issuance": 21,
+    "artist": "Kawabangga",
+    "link": "https://horizon.market/explorer/assets/A8123787290329574000",
+    "image": "https://stampchain.io/stamps/9fb515278452ef066f45a4a35278a751d18d805a583c5fb67a2e08d385031f01.webp"
+  },
+  {
+    "series": "5",
+    "card": "25",
+    "asset": "A174163676661216602",
+    "issuance": 100,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A174163676661216602",
+    "image": "https://stampchain.io/stamps/0e403b069a6cfb9bebbf4888bbd0dbc06af211f34c4deeb9ccfe43e3f9d8cc9c.png"
+  },
+  {
+    "series": "5",
+    "card": "26",
+    "asset": "A14592821083721468515",
+    "issuance": 10101,
+    "artist": "Unknown",
+    "link": "https://horizon.market/explorer/assets/A14592821083721468515",
+    "image": "https://stampchain.io/stamps/e8fea6545a6b456fc13548acfd9cbe43571b93188655791e8dc2ebfb2ffbadc8.png"
+  },
+  {
+    "series": "5",
+    "card": "27",
+    "asset": "A640716170206060748",
+    "issuance": 3,
+    "artist": "Mortylen",
+    "link": "https://horizon.market/explorer/assets/A640716170206060748",
+    "image": "https://stampchain.io/stamps/1b3629044befdedbd9eb1e8f60a3687af5ce172cc12f60bcf21899cc8089e62a.png"
+  },
+  {
+    "series": "5",
+    "card": "28",
+    "asset": "A4200000000000000042",
+    "issuance": 42,
+    "artist": "Bbleiztz",
+    "link": "https://horizon.market/explorer/assets/A4200000000000000042",
+    "image": "https://stampchain.io/stamps/cda86fff520f10ccd0688220ef3008ea38dd9308ebd4c53b0a381bb4725d8d72.png"
+  },
+  {
+    "series": "5",
+    "card": "29",
+    "asset": "A460718937600651975",
+    "issuance": 10,
+    "artist": "MasterOnchain",
+    "link": "https://horizon.market/explorer/assets/A460718937600651975",
+    "image": "https://stampchain.io/stamps/5792e508d7204e61c212ec0e3ea4c7a914318a20ee327d54ad2bfee43eca0b2e.png"
+  },
+  {
+    "series": "5",
+    "card": "30",
+    "asset": "A1121051079799104117",
+    "issuance": 369,
+    "artist": "FleperStamps",
+    "link": "https://horizon.market/explorer/assets/A1121051079799104117",
+    "image": "https://stampchain.io/stamps/16efbeffd5c89c094ae38c4d5d2cfec809571de69b91cfc9d51177423b8480da.png"
+  },
+  {
+    "series": "5",
+    "card": "31",
+    "asset": "A1668149313660433174",
+    "issuance": 31,
+    "artist": "Kawabangga",
+    "link": "https://horizon.market/explorer/assets/A1668149313660433174",
+    "image": "https://stampchain.io/stamps/3001545eda3943eea4c97d62750160090ecf583f5a0d8b02e58d4d8a4afb33d7.gif"
+  },
+  {
+    "series": "5",
+    "card": "32",
+    "asset": "A885284008816384188",
+    "issuance": 1,
+    "artist": "Dyle",
+    "link": "https://horizon.market/explorer/assets/A885284008816384188",
+    "image": "https://stampchain.io/stamps/c033166ca97ddd1b186b6c616a6b7a9fe3e792c2054146e57ee67cfb75bdae5d.html"
+  },
+  {
+    "series": "5",
+    "card": "33",
+    "asset": "A9928660905925808000",
+    "issuance": 36,
+    "artist": "Majoni",
+    "link": "https://horizon.market/explorer/assets/A9928660905925808000",
+    "image": "https://stampchain.io/stamps/1c61f2d4000e1bc2ce27ec24e4fcbbb376c2bd19641e071403e68d84d48eea8a.png"
+  },
+  {
+    "series": "5",
+    "card": "34",
+    "asset": "A15875017493938280172",
+    "issuance": 100,
+    "artist": "Viva La Vandal",
+    "link": "https://horizon.market/explorer/assets/A15875017493938280172",
+    "image": "https://stampchain.io/stamps/a1250d09d08573de07d737f01f976bdc56fa164d1d73764d83a62817c993607f.png"
+  },
+  {
+    "series": "5",
+    "card": "35",
+    "asset": "A12300092208194444164",
+    "issuance": 300,
+    "artist": "AZ",
+    "link": "https://horizon.market/explorer/assets/A12300092208194444164",
+    "image": "https://stampchain.io/stamps/92865a7b09a17c047d4556f453832a85a19cbef5e585931e62d69112b96cfff5.png"
+  },
+  {
+    "series": "5",
+    "card": "36",
+    "asset": "A12340253106377899876",
+    "issuance": 420,
+    "artist": "AZ",
+    "link": "https://horizon.market/explorer/assets/A12340253106377899876",
+    "image": "https://stampchain.io/stamps/2137346ea28cfa8bcdd6032d0e9e073b5bfdddc44a56834a1a7fd7b115bac9a2.png"
+  },
+  {
+    "series": "5",
+    "card": "37",
+    "asset": "A1281085847249306132",
+    "issuance": 69,
+    "artist": "Normancomics",
+    "link": "https://horizon.market/explorer/assets/A1281085847249306132",
+    "image": "https://stampchain.io/stamps/fe11122bd7787b8b153b22a1acf11b0bbe8b28e1e84a2040d0a205b438230ecd.gif"
+  },
+  {
+    "series": "5",
+    "card": "38",
+    "asset": "A1394569061064704180",
+    "issuance": 33,
+    "artist": "FleperStamps",
+    "link": "https://horizon.market/explorer/assets/A1394569061064704180",
+    "image": "https://stampchain.io/stamps/da73fd5c15fbfda1ba5a11933776828f4c38f0c3aefce09fde0f408f92050fb7.png"
+  },
+  {
+    "series": "5",
+    "card": "39",
+    "asset": "A929544322611884469",
+    "issuance": 1,
+    "artist": "Tepixelabs",
+    "link": "https://horizon.market/explorer/assets/A929544322611884469",
+    "image": "https://stampchain.io/stamps/033f60cc4b6f9e294830070fae55b98185adae59c27dd2616f8c6675b31b8dea.svg"
+  },
+  {
+    "series": "5",
+    "card": "40",
+    "asset": "A437177997982792336",
+    "issuance": 100,
+    "artist": "Alth0tas",
+    "link": "https://horizon.market/explorer/assets/A437177997982792336",
+    "image": "https://stampchain.io/stamps/89249e91d6b025060cfee6a53e7a52d46cfe32f63f034181be0443eae6625223.png"
+  },
+  {
+    "series": "5",
+    "card": "41",
+    "asset": "A1636348165025643092",
+    "issuance": 29,
+    "artist": "Pifu",
+    "link": "https://horizon.market/explorer/assets/A1636348165025643092",
+    "image": "https://stampchain.io/stamps/8d6b27ae5aea5bc6a1f3840d36f3313efc8c499829d6d57444f43320e77fc588.png"
+  },
+  {
+    "series": "5",
+    "card": "42",
+    "asset": "A12338187963210021395",
+    "issuance": 35,
+    "artist": "Socks",
+    "link": "https://horizon.market/explorer/assets/A12338187963210021395",
+    "image": "https://stampchain.io/stamps/ceec8db6c4740bc5c8b343e4e8dfd35eaab92aa069fe5b2f4b27768830f7dae6.gif"
+  }
+]
