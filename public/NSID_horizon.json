@@ -233,16 +233,7 @@
     "link": "https://horizon.market/explorer/assets/A8886513925264515000",
     "image": "https://stampchain.io/stamps/2a5b7c4bac01b5dd8dc394618e1187703c8f12ecdf24411a5a7855636bc429d6.png"
   },
-  {
-    "series": "1",
-    "card": "27",
-    "asset": "A1619006396900464164",
-    "issuance": 299,
-    "artist": "HNFT Pepe",
-    "link": "https://horizon.market/explorer/assets/A1619006396900464164",
-    "image": "https://stampchain.io/stamps/1876c3bbeab9a6046a0913591e9a8e9ee9fc147ed912fe151ecab777a2e102a5.svg"
-  },
-  {
+    {
     "series": "1",
     "card": "28",
     "asset": "A2906551588338565600",
